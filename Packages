@@ -15,23 +15,6 @@ Homepage: https://iosgods.com
 Installed-Size: 8340
 Name: Episode - Choose Your Story Cheats
 
-Package: iOSGods.com.AmongUS
-Version: 2020.9.9+iOSGods.com
-Architecture: iphoneos-arm
-Maintainer: iOSGods.com
-Depends: mobilesubstrate
-Filename: ./debs/iOSGods.com.AmongUS_2020.9.9+iOSGods.com_iphoneos-arm (2).deb
-Size: 2421920
-MD5sum: 80aa0df3f7e1f45d814fed725bd673c5
-SHA1: c7010c0b2ff1cd5b40a1c208297733653c4b28fb
-SHA256: 2d9e52355d307077499f6bbd322e782866f0cb4ec6d385a8ea7643ad4bfa36be
-Section: Tweaks
-Description: Among Us! iGMM Cheats by Laxus for iOSGods.com!
-Author: Laxus
-Homepage: https://iosgods.com
-Installed-Size: 8576
-Name: Among Us! Cheats
-
 Package: iOSGods.com.DCM
 Version: 10.4.2+iOSGods.com
 Architecture: iphoneos-arm

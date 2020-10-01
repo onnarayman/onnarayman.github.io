@@ -32,3 +32,37 @@ Homepage: https://iosgods.com
 Installed-Size: 8340
 Name: Dragon City Cheats
 
+Package: jp.akusio.backgrounderaction13
+Version: 0.1.4
+Architecture: iphoneos-arm
+Maintainer: akusio <akusio-report@neko2.net>
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/jp.akusio.backgrounderaction13_0.1.4_iphoneos-arm.deb
+Size: 14078
+MD5sum: c310760bda4ccc7e5ed3722aed9ef7de
+SHA1: b8619c32ee626b06376975eb84beecfd65cdae84
+SHA256: ad5dc505166d41fd2d60bd1ff9223e46ff1ba48999a57483cc78d8c946dec9c0
+Section: Tweaks
+Description: [iOS13]Add "Toggle Background Mode" action to ControlCenter.
+Author: akusio <akusio-report@neko2.net>
+Depiction: https://akusio.github.io/descriptions/backgrounderaction13/index.html
+Installed-Size: 244
+Name: BackgrounderAction2 for CCSupport
+
+Package: com.thearmking.amongus
+Version: 2020.9.9
+Architecture: iphoneos-arm
+Maintainer: TheArmKing
+Depends: mobilesubstrate
+Filename: ./debs/[PMT]Among_Us_v2020.9.9_JB-MOD_TheArmKing.deb
+Size: 184168
+MD5sum: 50bef929281ebadbdd337883bef4b682
+SHA1: 9782fee94cb8b03f6411f93c68debe3c865c5922
+SHA256: 5ac2076f704acd57297597219a226529e7751bd356f8581e42489aff77f14366
+Section: Tweaks
+Description: [PMT] Among Us 2020.9.9 - MOD by TheArmKing @Platinmods.com
+Author: TheArmKing
+Homepage: https://platinmods.com
+Installed-Size: 592
+Name: [PMT]Among Us - JB MOD
+

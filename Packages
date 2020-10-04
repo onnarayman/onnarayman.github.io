@@ -15,22 +15,6 @@ Homepage: https://iosgods.com
 Installed-Size: 8340
 Name: Episode - Choose Your Story Cheats
 
-Package: com.ihack102.adblockforyoutube
-Version: 0.0.1-2
-Architecture: iphoneos-arm
-Maintainer: iHack102
-Depends: mobilesubstrate
-Filename: ./debs/com.ihack102.adblockforyoutube_0.0.1-2_iphoneos-arm.deb
-Size: 3712
-MD5sum: 724803dc9491a677c0f0c654aea72de3
-SHA1: 84c7d3f976540af240338bb27cd7d9d971fe7ce8
-SHA256: cb2ec8df25f2057b6abe15493c8c45e4a951e91190cce73c040f496859e915f6
-Section: Tweaks
-Description: An awesome MobileSubstrate tweak!
-Author: iHack102
-Installed-Size: 88
-Name: Adblock For YouTube
-
 Package: com.ihack102.anghaminoads
 Version: 0.0~-1
 Architecture: iphoneos-arm
@@ -81,6 +65,23 @@ Author: akusio <akusio-report@neko2.net>
 Depiction: https://akusio.github.io/descriptions/backgrounderaction13/index.html
 Installed-Size: 244
 Name: BackgrounderAction2 for CCSupport
+
+Package: jp.akusio.milkyway2
+Version: 0.2.0-alpha
+Architecture: iphoneos-arm
+Maintainer: akusio <akusio-report@neko2.net>
+Depends: mobilesubstrate, jp.akusio.backgrounderaction13, applist, preferenceloader
+Filename: ./debs/jp.akusio.milkyway2_0.2.0-alpha_iphoneos-arm.deb
+Size: 44822
+MD5sum: 45aff19ea7b0327a72e50c4a87d68cd8
+SHA1: a779498db20097cef4783e6d817796d640bd6372
+SHA256: 9c1aa016b720ecfaa6f3176cd88454ec8767f1832306b69cda85e3ed734165e3
+Section: Tweaks
+Description: multitasking for iOS13.
+Author: akusio <akusio-report@neko2.net>
+Depiction: http://akusio.github.io/descriptions/milkyway2/index.html
+Installed-Size: 376
+Name: MilkyWay2
 
 Package: com.thearmking.amongus
 Version: 2020.9.9

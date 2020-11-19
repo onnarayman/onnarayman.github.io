@@ -122,21 +122,6 @@ Depiction: http://akusio.github.io/descriptions/milkyway2/index.html
 Installed-Size: 376
 Name: MilkyWay2
 
-Package: me.surenix.ayedapt
-Version: 1.0.10
-Architecture: iphoneos-arm
-Maintainer: Surenix
-Depends: com.spark.snowboard | net.dodtweaks.ithemer | com.anemonetheming.anemone | com.artikus.neonboard | winterboard
-Filename: ./debs/me.surenix.ayedapt_1.0.10_iphoneos-arm.deb
-Size: 2427380
-MD5sum: 3b9473cb8f5cdf21f057369dfb4c5014
-SHA1: d8f4eb3cce6f9c40263751ee45c2b5497399c7d4
-SHA256: 9b9acb1456b8c1187506239f84dd1b4d6d0eb85a01bd188f4495788cc9ba208c
-Section: Themes
-Description: Light and dark home screen icons
-Author: Surenix
-Name: Ayedapt
-
 Package: com.thearmking.amongus
 Version: 2020.9.9
 Architecture: iphoneos-arm

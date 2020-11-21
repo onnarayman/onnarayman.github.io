@@ -122,23 +122,20 @@ Depiction: http://akusio.github.io/descriptions/milkyway2/index.html
 Installed-Size: 376
 Name: MilkyWay2
 
-Package: net.angelxwind.appsyncunifiednofirmwaredepended
+Package: net.angelxwind.appsyncunified-nofirmwaredepended
 Version: 84.0
 Architecture: iphoneos-arm
-Maintainer: Karen/あけみ <karen@akemi.ai>
 Depends: mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1), netskao.antiprofilesrevoke
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
 Replaces: us.hackulo.appsync50
-Filename: ./debs/net.angelxwind.appsyncunifiednofirmwaredepended_84.0_iphoneos-arm.deb
-Size: 64138
-MD5sum: 1e82f872c6de9d752258c8ed3896f7b6
-SHA1: 0c03cc5fc8395bd611e7555cdfd2b234e2d6e8ff
-SHA256: a82a8fdb615e360043df6830828b0d165ece3a266b404f4cead0258fa64c0f13
+Filename: ./debs/net.angelxwind.appsyncunified-nofirmwaredepended_84.0_iphoneos-arm.deb
+Size: 64104
+MD5sum: d4c255d7f0d28fa75fa7416a1940f878
+SHA1: 07b7af36e0b1bb992966d30014d19f6516490ef4
+SHA256: c9f71d228c58cf0d8a3188b6e38f9506c9302b33cfb8345c92053ec904e1ad18
 Section: Tweaks
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
 Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
-Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
-Homepage: https://cydia.akemi.ai/
 Installed-Size: 496
 Name: AppSync Unified No Firmware Depended
 Provides: appsync

@@ -20,10 +20,10 @@ Version: 1.4.2b1
 Architecture: iphoneos-arm
 Depends: com.rileytestut.altdaemon
 Filename: ./debs/com.C4S5ZDUDGC.com.rileytestut.AltStore.Beta_1.4.2b1_iphoneos-arm.deb
-Size: 4605808
-MD5sum: a4fb56fda89f771a2beeab0906866176
-SHA1: 0bf10cff1162658d2ca4c5667e811f84c8fa9bba
-SHA256: 952a347438ae4befc3e2d56e88a372ce16112402ebb3d8fc835563b9216d2947
+Size: 4589950
+MD5sum: 71f456ac3eb5989d8f501081e01a18d3
+SHA1: 99f3923cd5000892b8ccd15e8f42ab5483ebbbc2
+SHA256: 8aefa2c751179f7e5dfa9405568e64419ffb2155bf718a2c33d05b85c58c3a2d
 Section: Tweaks
 Description: AltStore is an alternative app store for non-jailbroken iOS devices.
 Author: Riley Testut
@@ -34,10 +34,10 @@ Version: 1.4.2
 Architecture: iphoneos-arm
 Depends: com.rileytestut.altdaemon
 Filename: ./debs/com.C4S5ZDUDGC.com.rileytestut.AltStore_1.4.2_iphoneos-arm.deb
-Size: 4606120
-MD5sum: 7279cb8620c7f24b206689038d1d9508
-SHA1: e9fb02866768b16c312f842f22d0aad26a7c0854
-SHA256: 5fcb54729f202660e1bc70bebb1871edd41e9d1c4614dd27f44d14bb34fa8c8c
+Size: 4590370
+MD5sum: 4374a2a586db87de4321cb701ca984f8
+SHA1: fd4a8049e72cb5fa4b9de68a263c45612ffe18ee
+SHA256: d542535c94afccbc649aa29fa3f77e5ea43c41c8d3c01902ca402e5c0a77939b
 Section: Tweaks
 Description: AltStore is an alternative app store for non-jailbroken iOS devices.
 Author: Riley Testut

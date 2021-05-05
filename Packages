@@ -31,24 +31,6 @@ Author: julioverne
 Homepage: http://twitter.com/ijulioverne
 Name: Deezelife
 
-Package: gettext-localizations
-Version: 2020.10.07
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Depends: libintl8 (>= 0.20.0)
-Conflicts: com.linusyang.localeutf8
-Replaces: com.linusyang.localeutf8
-Filename: ./debs/gettext-localizations_2020.10.07_iphoneos-arm.deb
-Size: 227392
-MD5sum: 363d6e36d0103b92becf96d8b8dd6d70
-SHA1: 4931cfeef68b7b925b121bd84c76683308613dc4
-SHA256: e0367deb4dafbebfb9c73306c0f7f0e936105e47cde1ec5f35d0cc0734020db7
-Section: Localizations
-Description: Locale files necessary for command line tool translation.
-Installed-Size: 6256
-Priority: important
-Provides: com.linusyang.localeutf8 (= 99.9)
-
 Package: com.q8crack.haskfm
 Version: 1.0
 Architecture: iphoneos-arm
@@ -106,21 +88,6 @@ Depiction: http://akusio.github.io/descriptions/milkyway2/index.html
 Installed-Size: 376
 Name: MilkyWay2
 
-Package: libintl8
-Version: 0.21-3
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Filename: ./debs/libintl8_0.21-3_iphoneos-arm.deb
-Size: 28656
-MD5sum: 47e6134da752c33dda64ccef35915767
-SHA1: 0fe3a745c198e889886e6f5e4052d7ad7a8d7739
-SHA256: 7a088fc6351600dc72ae844c0de5d2486719e943bced463e8882bf7c8c7f5484
-Section: System
-Description: internationalization helper for strings
-Essental: yes
-Homepage: http://www.gnu.org/software/gettext/
-Installed-Size: 232
-
 Package: me.surenix.ayedapt
 Version: 1.0.10
 Architecture: iphoneos-arm
@@ -136,18 +103,18 @@ Description: Light and dark home screen icons
 Author: Surenix
 Name: Ayedapt
 
-Package: mterminal
+Package: mterminal-new
 Version: 1.5-2
 Architecture: iphoneos-arm
 Maintainer: Hayden Seay <me@diatr.us>
-Depends: coreutils, firmware (>= 11.0), gettext-localizations, system-cmds, zsh
+Depends: coreutils, firmware (>= 11.0), system-cmds, zsh
 Conflicts: com.officialscheduler.mterminal
 Replaces: com.officialscheduler.mterminal
-Filename: ./debs/mterminal_1.5-2_iphoneos-arm.deb
-Size: 87796
-MD5sum: 60f0f17457459b6591010c20cee1f29a
-SHA1: d273a015f24d981582686c6dfa1b5c31aeaa48f6
-SHA256: c51385b506d1fb829dbccd152b15ea0d1e01a26bb25b1d3d5cf28da674d89057
+Filename: ./debs/mterminal-new_1.5-2_iphoneos-arm.deb
+Size: 98176
+MD5sum: 33f8a040ef0aca26d2065ccfc202d4cf
+SHA1: e7cbbf5b7715efb7899b2ba09bc78d0811533aa3
+SHA256: fd85292fe1538640bb24789d45f5988ff03d289b78aa2d7509e59a6533f11e14
 Section: Utilities
 Description: A MobileTerminal fork
 Author: lordscotland

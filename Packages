@@ -122,7 +122,7 @@ Essental: yes
 Homepage: http://www.gnu.org/software/gettext/
 Installed-Size: 232
 
-Package: me.surenix.ayedapt
+Package: me.surenix.ayedapt-free
 Version: 1.0.10
 Architecture: iphoneos-arm
 Maintainer: Surenix

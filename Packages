@@ -110,19 +110,18 @@ Package: libintl8
 Version: 0.21-3
 Architecture: iphoneos-arm
 Maintainer: Hayden Seay <me@diatr.us>
-Conflicts: gettext (<< 0.21-3)
 Filename: ./debs/libintl8_0.21-3_iphoneos-arm.deb
-Size: 23532
-MD5sum: 8f29d47671deee6583a07812e6ee65e2
-SHA1: e80a4d2c2d9bb489ac3081cfc9f07ab7fc38c1ef
-SHA256: 6568618e15865baadcfe58707405650c367f1904cf93c47fee05e70e710307c0
+Size: 28656
+MD5sum: 47e6134da752c33dda64ccef35915767
+SHA1: 0fe3a745c198e889886e6f5e4052d7ad7a8d7739
+SHA256: 7a088fc6351600dc72ae844c0de5d2486719e943bced463e8882bf7c8c7f5484
 Section: System
 Description: internationalization helper for strings
 Essental: yes
 Homepage: http://www.gnu.org/software/gettext/
 Installed-Size: 232
 
-Package: me.surenix.ayedapt-free
+Package: me.surenix.ayedapt
 Version: 1.0.10
 Architecture: iphoneos-arm
 Maintainer: Surenix

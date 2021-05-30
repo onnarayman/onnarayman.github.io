@@ -88,33 +88,18 @@ Depiction: http://akusio.github.io/descriptions/milkyway2/index.html
 Installed-Size: 376
 Name: MilkyWay2
 
-Package: me.surenix.ayedapt
-Version: 1.0.10
-Architecture: iphoneos-arm
-Maintainer: Surenix
-Depends: com.spark.snowboard | net.dodtweaks.ithemer | com.anemonetheming.anemone | com.artikus.neonboard | winterboard
-Filename: ./debs/me.surenix.ayedapt_1.0.10_iphoneos-arm.deb
-Size: 2427380
-MD5sum: 3b9473cb8f5cdf21f057369dfb4c5014
-SHA1: d8f4eb3cce6f9c40263751ee45c2b5497399c7d4
-SHA256: 9b9acb1456b8c1187506239f84dd1b4d6d0eb85a01bd188f4495788cc9ba208c
-Section: Tweak/Theme
-Description: Light and dark home screen icons
-Author: Surenix
-Name: Ayedapt
-
-Package: mterminal-new
+Package: mterminal-elucubratus
 Version: 1.5-2
 Architecture: iphoneos-arm
 Maintainer: Hayden Seay <me@diatr.us>
-Depends: coreutils, firmware (>= 11.0), system-cmds, zsh
+Depends: coreutils, firmware (>= 11.0), gettext, system-cmds, zsh
 Conflicts: com.officialscheduler.mterminal
 Replaces: com.officialscheduler.mterminal
-Filename: ./debs/mterminal-new_1.5-2_iphoneos-arm.deb
-Size: 98176
-MD5sum: 33f8a040ef0aca26d2065ccfc202d4cf
-SHA1: e7cbbf5b7715efb7899b2ba09bc78d0811533aa3
-SHA256: fd85292fe1538640bb24789d45f5988ff03d289b78aa2d7509e59a6533f11e14
+Filename: ./debs/mterminal-elucubratus_1.5-2_iphoneos-arm.deb
+Size: 98188
+MD5sum: 4c6d755c41cc2eb3c3f24ff963acf3bc
+SHA1: ebf5d2ed4b72dbbc382863663d33f17ab8613fa5
+SHA256: 825c30378a706922ab183e424b9f7338147a3100e21b2989aa95525bfaf896a0
 Section: Utilities
 Description: A MobileTerminal fork
 Author: lordscotland
@@ -139,6 +124,25 @@ Section: Tweaks
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
 Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
 Installed-Size: 496
+Name: AppSync Unified No Firmware Depended
+Provides: appsync
+
+Package: net.angelxwind.appsyncunified-nofirmwaredepended
+Version: 96.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), netskao.antiprofilesrevoke
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute, net.angelxwind.appsyncunified
+Replaces: us.hackulo.appsync50
+Filename: ./debs/net.angelxwind.appsyncunified-nofirmwaredepended_96.0_iphoneos-arm.deb
+Size: 88452
+MD5sum: 39c257fe4d7bcfa0d93760c5ee66e813
+SHA1: f4e043999e19b825316607be41be7bf09f5f54a8
+SHA256: 3925d1a2ba711bf924974d14a21e36f26db25fdbf6713ccecb14faa86305aade
+Section: Tweaks
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Installed-Size: 732
 Name: AppSync Unified No Firmware Depended
 Provides: appsync
 

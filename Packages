@@ -88,6 +88,39 @@ Depiction: http://akusio.github.io/descriptions/milkyway2/index.html
 Installed-Size: 376
 Name: MilkyWay2
 
+Package: me.nepeta.relocatemodule
+Version: 0.1.1
+Architecture: iphoneos-arm
+Maintainer: Nepeta <ominousness@protonmail.com>
+Depends: mobilesubstrate, com.opa334.ccsupport, ws.hbang.common (>= 1.11), firmware (>= 11.0), me.nepeta.relocatereborn (>= 1.0.1)
+Filename: ./debs/me.nepeta.relocatemodule_0.1.1_iphoneos-arm.deb
+Size: 27120
+MD5sum: 8dc883d4e0cdc0082099e18373648003
+SHA1: e1b999b5493d3d850f3b35d810f13b172db5246c
+SHA256: 7023330e007b94218aa55d17f482f9a78f5d806780c9e8e929fd27db5fbb583c
+Section: Tweaks
+Description: CC toggle for Relocate (GPS location spoofer).
+Author: Nepeta <ominousness@protonmail.com>
+Installed-Size: 168
+Name: Relocate Module (Control Center)
+
+Package: me.nepeta.relocatereborn
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Nepeta
+Depends: mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 13.0), applist, com.rpetrich.rocketbootstrap (>= 0.1.7), preferenceloader
+Conflicts: me.nepeta.relocate
+Filename: ./debs/me.nepeta.relocatereborn_1.0.1_iphoneos-arm.deb
+Size: 70024
+MD5sum: d072cf45d0f1f3be81b841a877d880d5
+SHA1: 110b2d8d7cc38cb5202b6d62ce394d2372be9009
+SHA256: 71567fb157b13d3ce7de9ae51dd43949f7336f0c669f6341cc984e8cad948ab8
+Section: Tweaks
+Description: Minimalist GPS spoofer (free, iOS 13+)
+Author: Nepeta
+Installed-Size: 492
+Name: Relocate Reborn
+
 Package: mterminal-elucubratus
 Version: 1.5-2
 Architecture: iphoneos-arm

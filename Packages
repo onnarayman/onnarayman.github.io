@@ -1,3 +1,21 @@
+Package: me.surenix.ayecon
+Version: 0.1-1
+Architecture: iphoneos-arm
+Maintainer: Surenix <surenix@surenix.me>
+Depends: com.spark.snowboard | net.dodtweaks.ithemer | com.anemonetheming.anemone | com.artikus.neonboard | winterboard
+Filename: ./debs/ayecon-iOS-14-0.1-1.deb
+Size: 1712282
+MD5sum: c0aa899c84f6c02dabcb2b9be82ba0d1
+SHA1: a716a9e7f92fc36cde7c264e5e3f69263ba69e07
+SHA256: 40010f15cc8b1187787e99fa9725c431c13f222ea9fba2725a77d65cf3c1b560
+Section: Themes
+Description: A benchmark theme for iOS.
+Author: Surenix <surenix@surenix.me>
+Depiction: http://www.surenix.me/repo/ayecon/index.html
+Icon: file:///Library/Themes/ayecon.theme/IconBundles/ayecon-Icon.png
+Name: ayecon
+Tag: cydia::commercial
+
 Package: com.ihack102.anghaminoads
 Version: 0.0~-1
 Architecture: iphoneos-arm
@@ -178,4 +196,22 @@ Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Installed-Size: 732
 Name: AppSync Unified No Firmware Depended
 Provides: appsync
+
+Package: me.surenix.vantaye
+Version: 1.1.6-1
+Architecture: iphoneos-arm
+Maintainer: Surenix <surenix@surenix.me>
+Depends: com.spark.snowboard | net.dodtweaks.ithemer | com.anemonetheming.anemone | com.artikus.neonboard | winterboard
+Filename: ./debs/Vantaye-1.1.6-1.deb
+Size: 2012240
+MD5sum: 176b008a5b0f006f2ab681d97e3a1b55
+SHA1: f0fded178513e0838f77812d7d9f92420d9dabd4
+SHA256: 8bea5785134e9bb403e036a389047591fc4ad6714776f40e0266192682511faa
+Section: Themes
+Description: Imagines dark mode iOS icons
+Author: Surenix <surenix@surenix.me>
+Depiction: http://www.surenix.me/repo/vantaye/index.html
+Icon: file:///Library/Themes/Vantaye.theme/IconBundles/Vantaye-Icon.png
+Name: Vantaye
+Tag: cydia::commercial
 

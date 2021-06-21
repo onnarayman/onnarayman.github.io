@@ -139,18 +139,18 @@ Author: Nepeta
 Installed-Size: 492
 Name: Relocate Reborn
 
-Package: mterminal-elucubratus
+Package: mterminal
 Version: 1.5-2
 Architecture: iphoneos-arm
 Maintainer: Hayden Seay <me@diatr.us>
-Depends: coreutils, firmware (>= 11.0), gettext, system-cmds, zsh
+Depends: coreutils, firmware (>= 11.0), system-cmds, zsh
 Conflicts: com.officialscheduler.mterminal
 Replaces: com.officialscheduler.mterminal
-Filename: ./debs/mterminal-elucubratus_1.5-2_iphoneos-arm.deb
-Size: 98188
-MD5sum: 4c6d755c41cc2eb3c3f24ff963acf3bc
-SHA1: ebf5d2ed4b72dbbc382863663d33f17ab8613fa5
-SHA256: 825c30378a706922ab183e424b9f7338147a3100e21b2989aa95525bfaf896a0
+Filename: ./debs/mterminal_1.5-2_iphoneos-arm.deb
+Size: 98170
+MD5sum: d19358e96b694671338ea0803d2d3ce3
+SHA1: eebefc02a85b96d10121a7049c3c503a95ace34e
+SHA256: 49e60254d7420d9ddbdb050f9134eeca1b82b60f156c17a0dd93b2eafcbf8f36
 Section: Utilities
 Description: A MobileTerminal fork
 Author: lordscotland

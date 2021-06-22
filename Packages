@@ -1,25 +1,8 @@
-Package: me.surenix.ayecon
-Version: 0.1-1
-Architecture: iphoneos-arm
-Maintainer: Surenix <surenix@surenix.me>
-Depends: com.spark.snowboard | net.dodtweaks.ithemer | com.anemonetheming.anemone | com.artikus.neonboard | winterboard
-Filename: ./debs/ayecon-iOS-14-0.1-1.deb
-Size: 1712282
-MD5sum: c0aa899c84f6c02dabcb2b9be82ba0d1
-SHA1: a716a9e7f92fc36cde7c264e5e3f69263ba69e07
-SHA256: 40010f15cc8b1187787e99fa9725c431c13f222ea9fba2725a77d65cf3c1b560
-Section: Themes
-Description: A benchmark theme for iOS.
-Author: Surenix <surenix@surenix.me>
-Depiction: http://www.surenix.me/repo/ayecon/index.html
-Icon: file:///Library/Themes/ayecon.theme/IconBundles/ayecon-Icon.png
-Name: ayecon
-Tag: cydia::commercial
-
 Package: com.ihack102.anghaminoads
 Version: 0.0~-1
 Architecture: iphoneos-arm
 Maintainer: iHack102
+Installed-Size: 88
 Depends: mobilesubstrate
 Filename: ./debs/com.ihack102.anghaminoads_0.0--1_iphoneos-arm.deb
 Size: 3536
@@ -27,10 +10,9 @@ MD5sum: 2c196fefa557c695f4a388cd9ef771c5
 SHA1: c4c5adb751ee9c83f4b8d5d2a2469f8f71578a8d
 SHA256: c454f9c1cc8a9ebfa9c848b4555b0ba3934c6f7a12790ebe9229d6eccc0070dc
 Section: Tweaks
+Homepage: https://twitter.com/ihack102
 Description: Patch Ads on Anghami App 😁
 Author: iHack102 <d-_-x@hotmail.com>
-HomePage: https://twitter.com/ihack102
-Installed-Size: 88
 Name: AnghamiNoAds
 
 Package: com.julioverne.deezelife
@@ -44,15 +26,16 @@ MD5sum: b28403c64ad363a0cb13f69fecbc84b9
 SHA1: f10f9c62360f5a7dbf21a8599754bc062f84c65b
 SHA256: 96b607ea2137f409d32a74138d815e903bc1224a67ce0385a98a708eaaf148b9
 Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
 Description: Deezer Fully Premium Features, Unrestrict Music... Requires Deezer App (AppStore)
 Author: julioverne
-Homepage: http://twitter.com/ijulioverne
 Name: Deezelife
 
 Package: com.q8crack.haskfm
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 559
 Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader
 Filename: ./debs/haskfm_1.0.deb
 Size: 165090
@@ -60,22 +43,40 @@ MD5sum: 8b229b61ff767ff9526d33528ade5b42
 SHA1: 9e54b00d783e37afc80ffe460dddacec9da9fd98
 SHA256: 713ae76e4db2949e74f165f7077b484c71e3e16529181be8f66a6bd9f592b6ac
 Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=haskfmDp
 Description: enhancement tweaks for Askfm app
+Tag: purpose::extension, compatible::ios10
 Author: fahadaljuwausri <bofahadkwt5@gmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=haskfmDp
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=haskfmDp
+Dev: fahadaljuwausri
 Icon: file:///Library/PreferenceBundles/pro.bundle/icon@2x.png
-Installed-Size: 559
 Name: Haskfm
-Priority: optional
 Sponsor: thebigboss.org <http://thebigboss.org>
-Tag: purpose::extension, compatible::ios10
-dev: fahadaljuwausri
+
+Package: gettext-localizations
+Version: 2020.10.07
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 6256
+Depends: libintl8 (>= 0.20.0)
+Conflicts: com.linusyang.localeutf8
+Replaces: com.linusyang.localeutf8
+Provides: com.linusyang.localeutf8 (= 99.9)
+Filename: ./debs/gettext-localizations_2020.10.07_iphoneos-arm.deb
+Size: 227392
+MD5sum: 363d6e36d0103b92becf96d8b8dd6d70
+SHA1: 4931cfeef68b7b925b121bd84c76683308613dc4
+SHA256: e0367deb4dafbebfb9c73306c0f7f0e936105e47cde1ec5f35d0cc0734020db7
+Section: Localizations
+Priority: important
+Description: Locale files necessary for command line tool translation.
 
 Package: jp.akusio.backgrounderaction13
 Version: 0.1.4
 Architecture: iphoneos-arm
 Maintainer: akusio <akusio-report@neko2.net>
+Installed-Size: 244
 Depends: mobilesubstrate, com.opa334.ccsupport
 Filename: ./debs/jp.akusio.backgrounderaction13_0.1.4_iphoneos-arm.deb
 Size: 14078
@@ -86,13 +87,13 @@ Section: Tweaks
 Description: [iOS13]Add "Toggle Background Mode" action to ControlCenter.
 Author: akusio <akusio-report@neko2.net>
 Depiction: https://akusio.github.io/descriptions/backgrounderaction13/index.html
-Installed-Size: 244
 Name: BackgrounderAction2 for CCSupport
 
 Package: jp.akusio.milkyway2
 Version: 0.2.0-alpha
 Architecture: iphoneos-arm
 Maintainer: akusio <akusio-report@neko2.net>
+Installed-Size: 376
 Depends: mobilesubstrate, jp.akusio.backgrounderaction13, applist, preferenceloader
 Filename: ./debs/jp.akusio.milkyway2_0.2.0-alpha_iphoneos-arm.deb
 Size: 44822
@@ -103,13 +104,28 @@ Section: Tweaks
 Description: multitasking for iOS13.
 Author: akusio <akusio-report@neko2.net>
 Depiction: http://akusio.github.io/descriptions/milkyway2/index.html
-Installed-Size: 376
 Name: MilkyWay2
+
+Package: libintl8
+Version: 0.21-4
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 116
+Filename: ./debs/libintl8_0.21-4_iphoneos-arm.deb
+Size: 28580
+MD5sum: 4faa9ef3687c9e0a990c5d9fe7d61b36
+SHA1: 096f61608a65651e4fc356758c6333767b7e45b9
+SHA256: 6109a829bd6509df9acac3522231f684eb19e3f2bd173cff8067ea4fc8c637b6
+Section: System
+Homepage: http://www.gnu.org/software/gettext/
+Description: internationalization helper for strings
+Essental: yes
 
 Package: me.nepeta.relocatemodule
 Version: 0.1.1
 Architecture: iphoneos-arm
 Maintainer: Nepeta <ominousness@protonmail.com>
+Installed-Size: 168
 Depends: mobilesubstrate, com.opa334.ccsupport, ws.hbang.common (>= 1.11), firmware (>= 11.0), me.nepeta.relocatereborn (>= 1.0.1)
 Filename: ./debs/me.nepeta.relocatemodule_0.1.1_iphoneos-arm.deb
 Size: 27120
@@ -119,13 +135,13 @@ SHA256: 7023330e007b94218aa55d17f482f9a78f5d806780c9e8e929fd27db5fbb583c
 Section: Tweaks
 Description: CC toggle for Relocate (GPS location spoofer).
 Author: Nepeta <ominousness@protonmail.com>
-Installed-Size: 168
 Name: Relocate Module (Control Center)
 
 Package: me.nepeta.relocatereborn
 Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: Nepeta
+Installed-Size: 492
 Depends: mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 13.0), applist, com.rpetrich.rocketbootstrap (>= 0.1.7), preferenceloader
 Conflicts: me.nepeta.relocate
 Filename: ./debs/me.nepeta.relocatereborn_1.0.1_iphoneos-arm.deb
@@ -136,66 +152,25 @@ SHA256: 71567fb157b13d3ce7de9ae51dd43949f7336f0c669f6341cc984e8cad948ab8
 Section: Tweaks
 Description: Minimalist GPS spoofer (free, iOS 13+)
 Author: Nepeta
-Installed-Size: 492
 Name: Relocate Reborn
 
-Package: mterminal
-Version: 1.5-2
+Package: me.surenix.ayecon
+Version: 0.1-1
 Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Depends: coreutils, firmware (>= 11.0), system-cmds, zsh
-Conflicts: com.officialscheduler.mterminal
-Replaces: com.officialscheduler.mterminal
-Filename: ./debs/mterminal_1.5-2_iphoneos-arm.deb
-Size: 98170
-MD5sum: d19358e96b694671338ea0803d2d3ce3
-SHA1: eebefc02a85b96d10121a7049c3c503a95ace34e
-SHA256: 49e60254d7420d9ddbdb050f9134eeca1b82b60f156c17a0dd93b2eafcbf8f36
-Section: Utilities
-Description: A MobileTerminal fork
-Author: lordscotland
-Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mterminalDp
-Name: MTerminal
-Priority: standard
-Provides: com.officialscheduler.mterminal (= 1.5-2)
-Tag: purpose::uikit, role::enduser
-
-Package: net.angelxwind.appsyncunified-nofirmwaredepended
-Version: 84.0
-Architecture: iphoneos-arm
-Depends: mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1), netskao.antiprofilesrevoke
-Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
-Replaces: us.hackulo.appsync50
-Filename: ./debs/net.angelxwind.appsyncunified-nofirmwaredepended_84.0_iphoneos-arm.deb
-Size: 64104
-MD5sum: d4c255d7f0d28fa75fa7416a1940f878
-SHA1: 07b7af36e0b1bb992966d30014d19f6516490ef4
-SHA256: c9f71d228c58cf0d8a3188b6e38f9506c9302b33cfb8345c92053ec904e1ad18
-Section: Tweaks
-Description: Enables the ability to install unsigned/fakesigned iOS applications.
-Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
-Installed-Size: 496
-Name: AppSync Unified No Firmware Depended
-Provides: appsync
-
-Package: net.angelxwind.appsyncunified-nofirmwaredepended
-Version: 96.0
-Architecture: iphoneos-arm
-Maintainer: Karen/あけみ <karen@akemi.ai>
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), netskao.antiprofilesrevoke
-Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute, net.angelxwind.appsyncunified
-Replaces: us.hackulo.appsync50
-Filename: ./debs/net.angelxwind.appsyncunified-nofirmwaredepended_96.0_iphoneos-arm.deb
-Size: 88452
-MD5sum: 39c257fe4d7bcfa0d93760c5ee66e813
-SHA1: f4e043999e19b825316607be41be7bf09f5f54a8
-SHA256: 3925d1a2ba711bf924974d14a21e36f26db25fdbf6713ccecb14faa86305aade
-Section: Tweaks
-Description: Enables the ability to install unsigned/fakesigned iOS applications.
-Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
-Installed-Size: 732
-Name: AppSync Unified No Firmware Depended
-Provides: appsync
+Maintainer: Surenix <surenix@surenix.me>
+Depends: com.spark.snowboard | net.dodtweaks.ithemer | com.anemonetheming.anemone | com.artikus.neonboard | winterboard
+Filename: ./debs/ayecon-iOS-14-0.1-1.deb
+Size: 1712282
+MD5sum: c0aa899c84f6c02dabcb2b9be82ba0d1
+SHA1: a716a9e7f92fc36cde7c264e5e3f69263ba69e07
+SHA256: 40010f15cc8b1187787e99fa9725c431c13f222ea9fba2725a77d65cf3c1b560
+Section: Themes
+Description: A benchmark theme for iOS.
+Tag: cydia::commercial
+Author: Surenix <surenix@surenix.me>
+Depiction: http://www.surenix.me/repo/ayecon/index.html
+Icon: file:///Library/Themes/ayecon.theme/IconBundles/ayecon-Icon.png
+Name: ayecon
 
 Package: me.surenix.vantaye
 Version: 1.1.6-1
@@ -209,9 +184,67 @@ SHA1: f0fded178513e0838f77812d7d9f92420d9dabd4
 SHA256: 8bea5785134e9bb403e036a389047591fc4ad6714776f40e0266192682511faa
 Section: Themes
 Description: Imagines dark mode iOS icons
+Tag: cydia::commercial
 Author: Surenix <surenix@surenix.me>
 Depiction: http://www.surenix.me/repo/vantaye/index.html
 Icon: file:///Library/Themes/Vantaye.theme/IconBundles/Vantaye-Icon.png
 Name: Vantaye
-Tag: cydia::commercial
+
+Package: mterminal
+Version: 1.5-2
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: coreutils, firmware (>= 11.0), gettext-localizations, system-cmds, zsh
+Conflicts: com.officialscheduler.mterminal
+Replaces: com.officialscheduler.mterminal
+Provides: com.officialscheduler.mterminal (= 1.5-2)
+Filename: ./debs/mterminal_1.5-2_iphoneos-arm.deb
+Size: 87796
+MD5sum: 60f0f17457459b6591010c20cee1f29a
+SHA1: d273a015f24d981582686c6dfa1b5c31aeaa48f6
+SHA256: c51385b506d1fb829dbccd152b15ea0d1e01a26bb25b1d3d5cf28da674d89057
+Section: Utilities
+Priority: standard
+Description: A MobileTerminal fork
+Tag: purpose::uikit, role::enduser
+Author: lordscotland
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mterminalDp
+Name: MTerminal
+
+Package: net.angelxwind.appsyncunified-nofirmwaredepended
+Version: 84.0
+Architecture: iphoneos-arm
+Installed-Size: 496
+Depends: mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1), netskao.antiprofilesrevoke
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: ./debs/net.angelxwind.appsyncunified-nofirmwaredepended_84.0_iphoneos-arm.deb
+Size: 64104
+MD5sum: d4c255d7f0d28fa75fa7416a1940f878
+SHA1: 07b7af36e0b1bb992966d30014d19f6516490ef4
+SHA256: c9f71d228c58cf0d8a3188b6e38f9506c9302b33cfb8345c92053ec904e1ad18
+Section: Tweaks
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
+Name: AppSync Unified No Firmware Depended
+
+Package: net.angelxwind.appsyncunified-nofirmwaredepended
+Version: 96.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 732
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), netskao.antiprofilesrevoke
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute, net.angelxwind.appsyncunified
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: ./debs/net.angelxwind.appsyncunified-nofirmwaredepended_96.0_iphoneos-arm.deb
+Size: 88452
+MD5sum: 39c257fe4d7bcfa0d93760c5ee66e813
+SHA1: f4e043999e19b825316607be41be7bf09f5f54a8
+SHA256: 3925d1a2ba711bf924974d14a21e36f26db25fdbf6713ccecb14faa86305aade
+Section: Tweaks
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Name: AppSync Unified No Firmware Depended
 

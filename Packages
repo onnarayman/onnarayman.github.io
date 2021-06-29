@@ -1,16 +1,3 @@
-Package: com.KJCracks.Clutch
-Version: 2.0.4
-Architecture: iphoneos-arm
-Depends: zip
-Filename: ./debs/com.KJCracks.Clutch_2.0.4_iphoneos-arm.deb
-Size: 458386
-MD5sum: 26f8ac1bf0ebfe44745f38c6b5a0e9a6
-SHA1: 2711806dddc253720a58f5d7c66a94f7f0faa761
-SHA256: 38d7ffbfa90614394075fc08fdbaccc2b85bdb8fd6a16f5b963d0332a2f543e9
-Section: Utilities
-Description: Fast cracking utility for iPhone, iPod and iPad
-Name: Clutch
-
 Package: com.ihack102.anghaminoads
 Version: 0.0~-1
 Architecture: iphoneos-arm

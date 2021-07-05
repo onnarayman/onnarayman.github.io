@@ -1,3 +1,26 @@
+Package: com.ericday.blued-obex-free
+Version: 2.3.2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 7213
+Pre-Depends: firmware (>= 3.0)
+Depends: mobilesubstrate (>= 0.9.5000), libactivator | com.clezz.quickdo | firmware (>= 7.0), shell-cmds, coreutils-bin, preferenceloader, com.if0rce.blued-ng | com.ericday.blued-ng, libstatusbar | firmware (<< 4.0)
+Filename: ./debs/com.ericday.blued-obex-free_2.3.2_iphoneos-arm.deb
+Size: 4118458
+MD5sum: a163c5ad0f2c7bd91c83ad4347d9a127
+SHA1: c222af465d75a57c78107d1b9fa6bb4a57c9ec49
+SHA256: 09309ce37f1f7e8fc18e904b3b4b8b2376243262853e068fa8ed99927180bd7a
+Section: Networking
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bluedobexDp
+Description: Bluetooth File Transfer And More
+Tag: cydia::commercial, purpose::extension, compatible::ios7, compatible::ios8
+Author: Eric Day <ibluever@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bluedobexDp
+Dev: ericday
+Icon: file:///Applications/AirBlueSharing.app/AppIcon57x57.png
+Name: AirBlue Sharing
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.ihack102.anghaminoads
 Version: 0.0~-1
 Architecture: iphoneos-arm

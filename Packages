@@ -54,6 +54,21 @@ Icon: file:///Library/PreferenceBundles/pro.bundle/icon@2x.png
 Name: Haskfm
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.yourepo.abo1bs.cydownx
+Version: 6.0.6
+Architecture: iphoneos-arm
+Depends: cydia (>= 1.1.23), mobilesubstrate, preferenceloader, firmware (<< 8.3) | ldid (>= 1:1.2.1), coreutils-bin, coreutils, apt7
+Conflicts: com.julioverne.cyoption
+Filename: ./debs/cydownx.deb
+Size: 439582
+MD5sum: e618c9a101bbdc47155d381f95d5963b
+SHA1: 89f330a9cedc31332d7dc0e5fe19f4e0e3750cf4
+SHA256: 77e5f629d00e2153c6db5c927c2433b325736c76efeb16dc68bd1a49037d2b59
+Section: ijulioverne
+Description: Install paid packages for Free in Cydia!
+Author: julioverne
+Name: CyDown
+
 Package: gettext-localizations
 Version: 2020.10.07
 Architecture: iphoneos-arm

@@ -1,26 +1,3 @@
-Package: com.ericday.blued-obex-free
-Version: 2.3.2
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 7213
-Pre-Depends: firmware (>= 3.0)
-Depends: mobilesubstrate (>= 0.9.5000), libactivator | com.clezz.quickdo | firmware (>= 7.0), shell-cmds, coreutils-bin, preferenceloader, com.if0rce.blued-ng | com.ericday.blued-ng, libstatusbar | firmware (<< 4.0)
-Filename: ./debs/com.ericday.blued-obex-free_2.3.2_iphoneos-arm.deb
-Size: 4118458
-MD5sum: a163c5ad0f2c7bd91c83ad4347d9a127
-SHA1: c222af465d75a57c78107d1b9fa6bb4a57c9ec49
-SHA256: 09309ce37f1f7e8fc18e904b3b4b8b2376243262853e068fa8ed99927180bd7a
-Section: Networking
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bluedobexDp
-Description: Bluetooth File Transfer And More
-Tag: cydia::commercial, purpose::extension, compatible::ios7, compatible::ios8
-Author: Eric Day <ibluever@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bluedobexDp
-Dev: ericday
-Icon: file:///Applications/AirBlueSharing.app/AppIcon57x57.png
-Name: AirBlue Sharing
-Sponsor: thebigboss.org <http://thebigboss.org>
-
 Package: com.ihack102.anghaminoads
 Version: 0.0~-1
 Architecture: iphoneos-arm
@@ -37,6 +14,42 @@ Homepage: https://twitter.com/ihack102
 Description: Patch Ads on Anghami App 😁
 Author: iHack102 <d-_-x@hotmail.com>
 Name: AnghamiNoAds
+
+Package: com.julioverne.cydown
+Version: 6.8.8
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Filename: ./debs/com.julioverne.cydown_6.8.8_iphoneos-arm.deb
+Size: 1022462
+MD5sum: a755b483a40400466f828ec1addd6142
+SHA1: 77b4003dfd778fde1a1c448285f6e63812e96b94
+SHA256: 463c9e8b992f97f04762705df7fb2c53311310c2d6e8b2b7e082ebdca41b9fd5
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Cydia Download Manager & Extra Features!
+Author: julioverne <julioverne@me.com>
+Depiction: http://julio.xarold.com/files-deb/cydown.html
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+Name: CyDown
+
+Package: com.julioverne.cydown
+Version: 6.9.7
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Filename: ./debs/com.julioverne.cydown_6.9.7_iphoneos-arm.deb
+Size: 898776
+MD5sum: 3cdb7b8a0924425910d1f95a813c82e9
+SHA1: 2fc69b69e7982ce423ccdb0f67defea25fa82032
+SHA256: 6e6bf61d15b5de08fa2302e8fcbf4184a75317031ec431396c998f82e3d77d44
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Cydia Download Manager & Extra Features!
+Author: julioverne <julioverne@me.com>
+Depiction: http://julio.xarold.com/files-deb/cydown.html
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+Name: CyDown
 
 Package: com.julioverne.deezelife
 Version: 0.5
@@ -76,22 +89,6 @@ Dev: fahadaljuwausri
 Icon: file:///Library/PreferenceBundles/pro.bundle/icon@2x.png
 Name: Haskfm
 Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: com.repo.xarold.com.cydown
-Version: 6.8.8
-Architecture: iphoneos-arm
-Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
-Filename: ./debs/com_repo_xarold_com_cydown_6_8_8_iphoneos-arm.deb
-Size: 1022436
-MD5sum: 3061a19d55910d681de31b83974089df
-SHA1: 2c7eb6d9e9bc6617c814808ea982fccb369134ca
-SHA256: f97af3b009755bfe2c883346ba42222274b4a4c35faa27b91b4eac370b7a04b5
-Section: Tweaks
-Description: Cydia Download Manager & Extra Features!
-Author: julioverne
-Depiction: http://repo.xarold.com/depiction.php?id=cydown
-Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
-Name: CyDown
 
 Package: gettext-localizations
 Version: 2020.10.07

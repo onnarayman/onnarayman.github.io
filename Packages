@@ -54,19 +54,20 @@ Icon: file:///Library/PreferenceBundles/pro.bundle/icon@2x.png
 Name: Haskfm
 Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: com.yourepo.abo1bs.cydownx
-Version: 6.0.6
+Package: com.repo.xarold.com.cydown
+Version: 6.8.8
 Architecture: iphoneos-arm
-Depends: cydia (>= 1.1.23), mobilesubstrate, preferenceloader, firmware (<< 8.3) | ldid (>= 1:1.2.1), coreutils-bin, coreutils, apt7
-Conflicts: com.julioverne.cyoption
-Filename: ./debs/cydownx.deb
-Size: 439582
-MD5sum: e618c9a101bbdc47155d381f95d5963b
-SHA1: 89f330a9cedc31332d7dc0e5fe19f4e0e3750cf4
-SHA256: 77e5f629d00e2153c6db5c927c2433b325736c76efeb16dc68bd1a49037d2b59
-Section: ijulioverne
-Description: Install paid packages for Free in Cydia!
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Filename: ./debs/com_repo_xarold_com_cydown_6_8_8_iphoneos-arm.deb
+Size: 1022436
+MD5sum: 3061a19d55910d681de31b83974089df
+SHA1: 2c7eb6d9e9bc6617c814808ea982fccb369134ca
+SHA256: f97af3b009755bfe2c883346ba42222274b4a4c35faa27b91b4eac370b7a04b5
+Section: Tweaks
+Description: Cydia Download Manager & Extra Features!
 Author: julioverne
+Depiction: http://repo.xarold.com/depiction.php?id=cydown
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
 Name: CyDown
 
 Package: gettext-localizations

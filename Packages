@@ -102,44 +102,6 @@ Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.sp
 Name: Spotilife
 Sileodepiction: https://captainw.github.io/repo/sileodepictions/com.julioverne.spotilife/s.json
 
-Package: com.mc.arp-scan
-Version: 1.9.5-1
-Architecture: iphoneos-arm
-Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
-Pre-Depends: dpkg
-Depends: com.mc.libpcap
-Filename: ./debs/com.mc.arp-scan_1.9.5-1_iphoneos-arm.deb
-Size: 288596
-MD5sum: 8e24389d7ffe0d83cbe9832355be2d3d
-SHA1: 1fac139e4f41b45632451fefbc08bc6b35239612
-SHA256: 9fea228f4113df6b61c1d4d218e68af7929acd59947d3a4cd907e7e4f633530a
-Section: Networking
-Priority: optional
-Homepage: https://github.com/royhills/arp-scan
-Description: Athena Project | Compiled for ARM64.
- ARP scanning and fingerprinting tool
-Tag: purpose::console
-Name: arp-scan
-
-Package: com.mc.dsniff
-Version: 2.4-1-1
-Architecture: iphoneos-arm
-Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
-Pre-Depends: dpkg
-Depends: com.mc.libnids, com.mc.openssl, com.mc.db, com.mc.libnet, com.mc.libpcap
-Filename: ./debs/com.mc.dsniff_2.4-1-1_iphoneos-arm.deb
-Size: 73260
-MD5sum: c5fde551a7a93113ee4b49c7b879d7e4
-SHA1: 23bfe615e8798a2973e5db1eb7a4fd5606928719
-SHA256: 3c652088d8d19360ecfc40539f4f609f4137e6f8ab646d510985d516b73653fd
-Section: Networking
-Priority: optional
-Homepage: https://www.monkey.org/~dugsong/dsniff/
-Description: Athena Project | Compiled for ARM64.
- Old collection of tools for network auditing and penetration testing
-Tag: purpose::console
-Name: dsniff
-
 Package: com.q8crack.haskfm
 Version: 1.0
 Architecture: iphoneos-arm
@@ -162,72 +124,6 @@ Dev: fahadaljuwausri
 Icon: file:///Library/PreferenceBundles/pro.bundle/icon@2x.png
 Name: Haskfm
 Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: eu.teggers.netKillUI
-Version: 0.2.0-1
-Architecture: iphoneos-arm
-Maintainer: Teggers
-Installed-Size: 684
-Depends: arp-scan, dsniff, ldid, adv-cmds, grep, network-cmds, shell-cmds, gawk, coreutils
-Filename: ./debs/eu.teggers.netKillUI_0.2.0-1_iphoneos-arm.deb
-Size: 261284
-MD5sum: e57b07bd11c33f9ccb43f605864165d4
-SHA1: 9c5bfd7c7c32eeecba7c37ebdcbf783560c6ea13
-SHA256: c42db801cfbde02a75970d709830be9eb90337eae8361497c1c3aec594dbcadc
-Section: Tweaks
-Description: GUI for arp-scan and arp-spoof.
- Changelog:
- 0.2.0:
- iOS 9 support.
- 0.1.9-3:
- iOS 8.3 fix (prerequisite added).
- 0.1.9:
- iOS 8.3 fix.
- 0.1.8:
- Redo table cells - add multilines
- Hold cell to rename device
- Show device vendor if known (database not great atm)
- 0.1.7:
- Make indicator icons smaller.
- 0.1.6:
- Indicator to show which IPs are being blocked.
- Tap an IP currently being blocked to unblock it.
- Kill all button added.
-Author: Teggers
-Name: netKillUIbeta
-
-Package: eu.teggers.netKillUI
-Version: 0.2.1-1
-Architecture: iphoneos-arm
-Maintainer: Teggers
-Installed-Size: 684
-Depends: arp-scan, dsniff, ldid, adv-cmds, grep, network-cmds, shell-cmds, gawk, coreutils
-Filename: ./debs/eu.teggers.netKillUI_0.2.1-1_iphoneos-arm.deb
-Size: 261272
-MD5sum: b311ce42b739b6d18be8b8db74768159
-SHA1: 4f5a8ef0b01298614ad60958c7306623d62ed3bc
-SHA256: 08a64289ca947faf35f4067318be1853b85d6a7c9f5858b687750601aa03b549
-Section: Tweaks
-Description: GUI for arp-scan and arp-spoof.
- Changelog:
- 0.2.0:
- iOS 9 support.
- 0.1.9-3:
- iOS 8.3 fix (prerequisite added).
- 0.1.9:
- iOS 8.3 fix.
- 0.1.8:
- Redo table cells - add multilines
- Hold cell to rename device
- Show device vendor if known (database not great atm)
- 0.1.7:
- Make indicator icons smaller.
- 0.1.6:
- Indicator to show which IPs are being blocked.
- Tap an IP currently being blocked to unblock it.
- Kill all button added.
-Author: Teggers
-Name: netKillUIbeta
 
 Package: gettext-localizations
 Version: 2020.10.07

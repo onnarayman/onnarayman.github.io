@@ -1,22 +1,3 @@
-Package: arp-scan
-Version: 1.8.1-1
-Architecture: iphoneos-arm
-Maintainer: Trcx <trcx528@gmail.com>
-Depends: libpcap
-Filename: ./debs/arp-scan.deb
-Size: 283502
-MD5sum: 9c084377cdcce84f54e6f3fa73bbb817
-SHA1: 8556be2a6cdd27c8d98a7d03d97303424c512051
-SHA256: cad8b1ce0a0f60375501fb60258d0c340587dc6009cd56db585d64a0faedf6cf
-Section: Hacktools
-Description: ARP scanning and fingerprinting tool
- arp-scan is a command-line tool that uses the ARP protocol to discover and fingerprint IP hosts on the local network. It is available under the GPL licence (GPLv3).
-Tag: role::hacker
-Author: Roy Hills <Roy.Hills@nta-monitor.com>
-Depiction: http://ininjas.com/forum/index.php?topic=2099.0;theme=14
-Name: Arp Scan
-Sponsor: iNinjas <repo@ininjas.com>
-
 Package: com.ihack102.anghaminoads
 Version: 0.0~-1
 Architecture: iphoneos-arm
@@ -86,6 +67,79 @@ Description: Deezer Fully Premium Features, Unrestrict Music... Requires Deezer 
 Author: julioverne
 Name: Deezelife
 
+Package: com.julioverne.spotilife
+Version: 1.5
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: mobilesubstrate
+Filename: ./debs/com.julioverne.spotilife_1.5_iphoneos-arm.deb
+Size: 203206
+MD5sum: e6f23d0d85fbeb7482b8a316ce34a747
+SHA1: 2bc696b377d033486598196c8b7ad3d1ce5c3ab7
+SHA256: d6cf93cf19bfbee0114e941b91e3b5d9495e5407e62319167ed638d5af76db39
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Spotify Unlimited Skips, Remove ADs, Extreme Quality Stream Unlocked... Requires Spotify App (AppStore)
+Author: julioverne
+Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.spotilife
+Name: Spotilife
+
+Package: com.julioverne.spotilife.cw
+Version: 1.1a
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: mobilesubstrate
+Filename: ./debs/com.julioverne.spotilife.cw_1.1a_iphoneos-arm.deb
+Size: 106680
+MD5sum: 0f48c464aa0bc15b652261cac90162be
+SHA1: 973dc9763df3fa78b6f665899fb4fb5926530681
+SHA256: ad5ab41992ec3c817705284cee3ff5d92de77468dc279455be50b0d44ec56283
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Spotify Unlimited Skips, Remove ADs, Extreme Quality Stream Unlocked... Requires Spotify App (AppStore)作者源 http://julio.hackyouriphone.org/
+Author: julioverne
+Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.spotilife
+Name: Spotilife
+Sileodepiction: https://captainw.github.io/repo/sileodepictions/com.julioverne.spotilife/s.json
+
+Package: com.mc.arp-scan
+Version: 1.9.5-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.libpcap
+Filename: ./debs/com.mc.arp-scan_1.9.5-1_iphoneos-arm.deb
+Size: 288596
+MD5sum: 8e24389d7ffe0d83cbe9832355be2d3d
+SHA1: 1fac139e4f41b45632451fefbc08bc6b35239612
+SHA256: 9fea228f4113df6b61c1d4d218e68af7929acd59947d3a4cd907e7e4f633530a
+Section: Networking
+Priority: optional
+Homepage: https://github.com/royhills/arp-scan
+Description: Athena Project | Compiled for ARM64.
+ ARP scanning and fingerprinting tool
+Tag: purpose::console
+Name: arp-scan
+
+Package: com.mc.dsniff
+Version: 2.4-1-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.libnids, com.mc.openssl, com.mc.db, com.mc.libnet, com.mc.libpcap
+Filename: ./debs/com.mc.dsniff_2.4-1-1_iphoneos-arm.deb
+Size: 73260
+MD5sum: c5fde551a7a93113ee4b49c7b879d7e4
+SHA1: 23bfe615e8798a2973e5db1eb7a4fd5606928719
+SHA256: 3c652088d8d19360ecfc40539f4f609f4137e6f8ab646d510985d516b73653fd
+Section: Networking
+Priority: optional
+Homepage: https://www.monkey.org/~dugsong/dsniff/
+Description: Athena Project | Compiled for ARM64.
+ Old collection of tools for network auditing and penetration testing
+Tag: purpose::console
+Name: dsniff
+
 Package: com.q8crack.haskfm
 Version: 1.0
 Architecture: iphoneos-arm
@@ -108,26 +162,6 @@ Dev: fahadaljuwausri
 Icon: file:///Library/PreferenceBundles/pro.bundle/icon@2x.png
 Name: Haskfm
 Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: dsniff
-Version: 2.4b2-1
-Architecture: iphoneos-arm
-Maintainer: Trcx <trcx528@gmail.com>
-Conflicts: org.mulliner.dsniff
-Replaces: org.mulliner.dsniff
-Filename: ./debs/dsniff.deb
-Size: 2110904
-MD5sum: 9b7c8d02c2bc3fd25317e447b95e7df8
-SHA1: 76391b226237a5f7493c1cf9d3312d6b011fee53
-SHA256: 06fdbc3984b1f92dbbdec1d0c3e81721a6758684aafdfb058d417479b1651d15
-Section: Hacktools
-Description: Dsniff Suite Of Pentesting Tools For iPhone
- dsniff is a collection of tools for network auditing and penetration testing. dsniff, filesnarf, mailsnarf, msgsnarf, urlsnarf, and webspy passively monitor a network for interesting data (passwords, e-mail, files, etc.). arpspoof, dnsspoof, and macof facilitate the interception of network traffic normally unavailable to an attacker (e.g, due to layer-2 switching). sshmitm and webmitm implement active monkey-in-the-middle attacks against redirected SSH and HTTPS sessions by exploiting weak bindings in ad-hoc PKI.
-Tag: role:: hacker
-Author: Dug Song <dugsong@monkey.org>
-Depiction: http://ininjas.com/forum/index.php?topic=283;theme=14
-Name: Dsniff Suite
-Sponsor: iNinjas <repo@ininjas.com>
 
 Package: eu.teggers.netKillUI
 Version: 0.2.0-1

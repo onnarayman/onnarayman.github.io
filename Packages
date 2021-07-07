@@ -68,6 +68,23 @@ Author: julioverne
 Name: Deezelife
 
 Package: com.julioverne.spotilife
+Version: 1.1a
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: mobilesubstrate
+Filename: ./debs/com.julioverne.spotilife-1.1a-iphoneos-arm.deb
+Size: 201134
+MD5sum: 4be44d65dcb7c50576a0f73cf970df7e
+SHA1: 242c0a52df8a20d19ac72cd8e654e4eeff9ca6bd
+SHA256: e4c31947d1a48d2ea381c6b08c447f52da97a1ad0b85b16a435946abd32a6639
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Spotify Unlimited Skips, Remove ADs, Extreme Quality Stream Unlocked... Requires Spotify App (AppStore)
+Author: julioverne
+Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.spotilife
+Name: Spotilife
+
+Package: com.julioverne.spotilife
 Version: 1.5
 Architecture: iphoneos-arm
 Maintainer: Julio
@@ -83,24 +100,6 @@ Description: Spotify Unlimited Skips, Remove ADs, Extreme Quality Stream Unlocke
 Author: julioverne
 Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.spotilife
 Name: Spotilife
-
-Package: com.julioverne.spotilife.cw
-Version: 1.1a
-Architecture: iphoneos-arm
-Maintainer: Julio
-Depends: mobilesubstrate
-Filename: ./debs/com.julioverne.spotilife.cw_1.1a_iphoneos-arm.deb
-Size: 106680
-MD5sum: 0f48c464aa0bc15b652261cac90162be
-SHA1: 973dc9763df3fa78b6f665899fb4fb5926530681
-SHA256: ad5ab41992ec3c817705284cee3ff5d92de77468dc279455be50b0d44ec56283
-Section: Tweaks
-Homepage: http://twitter.com/ijulioverne
-Description: Spotify Unlimited Skips, Remove ADs, Extreme Quality Stream Unlocked... Requires Spotify App (AppStore)作者源 http://julio.hackyouriphone.org/
-Author: julioverne
-Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.spotilife
-Name: Spotilife
-Sileodepiction: https://captainw.github.io/repo/sileodepictions/com.julioverne.spotilife/s.json
 
 Package: com.q8crack.haskfm
 Version: 1.0

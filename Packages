@@ -1,3 +1,31 @@
+Package: aircrack-ng
+Version: 1.6~20211007.482f56c
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 2740
+Depends: libssl1.1, libpcre1, libpcapa
+Filename: ./debs/aircrack-ng_1.6~20211007.482f56c_iphoneos-arm.deb
+Size: 564300
+MD5sum: c2f532e74f5bbbe7dceed4eaa2d80bed
+SHA1: 716bed6f85be337b563f40cba3f9e127f2652193
+SHA256: f241c0c2dc80a773ed1454aaea14f5349d7d44187082f06a18147a16ca89cad6
+Section: Networking
+Priority: optional
+Homepage: https://www.aircrack-ng.org/
+Description: wireless WEP/WPA cracking utilities
+ aircrack-ng is an 802.11a/b/g WEP/WPA cracking program that can recover a
+ 40-bit, 104-bit, 256-bit or 512-bit WEP key once enough encrypted packets
+ have been gathered. Also it can attack WPA1/2 networks with some advanced
+ methods or simply by brute force.
+ .
+ It implements the standard FMS attack along with some optimizations,
+ thus making the attack much faster compared to other WEP cracking tools.
+ It can also fully use a multiprocessor system to its full power in order
+ to speed up the cracking process.
+ .
+ aircrack-ng is a fork of aircrack, as that project has been stopped by
+ the upstream maintainer.
+
 Package: com.ihack102.anghaminoads
 Version: 0.0~-1
 Architecture: iphoneos-arm
@@ -190,6 +218,97 @@ Section: System
 Homepage: http://www.gnu.org/software/gettext/
 Description: internationalization helper for strings
 Essental: yes
+
+Package: libiosexec1
+Version: 1.0.17~1.1-alpha1
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 68
+Filename: ./debs/libiosexec1_1.0.17~1.1-alpha1_iphoneos-arm.deb
+Size: 5538
+MD5sum: 4b0ed2c5e969b5dde7a27e4ee3bab76e
+SHA1: b3ff211aa1d373114a51b1e7d67700fea60ecdd1
+SHA256: 430a734181f3b26c852ae7802cae0e3b52281fee10855de20b85aaebf186f977
+Section: Libraries
+Priority: required
+Homepage: http://github.com/ProcursusTeam/libiosexec
+Description: shim for execve w/ shell script support
+
+Package: libpcapa
+Version: 1.10.1
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 320
+Depends: libssl1.1
+Filename: ./debs/libpcapa_1.10.1_iphoneos-arm.deb
+Size: 110078
+MD5sum: 5ff8a819eb2c7d5efd0b54bdc7a29792
+SHA1: c4cf141ddeea633bce785ee673d701a4c9d023c2
+SHA256: a33c74d2711d774fd04c901d2a5f86f1d2cf2460520a2603d90517b27d08d6e3
+Section: Libraries
+Priority: optional
+Homepage: http://www.tcpdump.org/
+Description: system interface for user-level packet capture
+ libpcap (Packet CAPture) provides a portable framework for low-level
+ network monitoring.  Applications include network statistics collection,
+ security monitoring, network debugging, etc.
+ .
+ Since almost every system vendor provides a different interface for
+ packet capture, and since there are several tools that require this
+ functionality, the libpcap authors created this system-independent API
+ to ease in porting and to alleviate the need for several
+ system-dependent packet capture modules in each application.
+
+Package: libpcre1
+Version: 8.45
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 432
+Conflicts: pcre (<< 1:0), libpcre (<< 1:0)
+Replaces: pcre, libpcre
+Provides: pcre (= 1:0), libpcre (= 8.45)
+Filename: ./debs/libpcre1_8.45_iphoneos-arm.deb
+Size: 152390
+MD5sum: 2d4b5f51853ee3f25fec00925fad9ede
+SHA1: b995bcc5ca811fc3f0836244c72c8a48602e4aa8
+SHA256: 33aef90328a2034b657a68aba6225e1dd6c4f0bac4fef0074fc34ba42c998fdf
+Section: Libraries
+Priority: standard
+Multi-Arch: foreign
+Description: Old Perl 5 Compatible Regular Expression Library - runtime library
+ This is a library of functions to support regular expressions whose syntax
+ and semantics are as close as possible to those of the Perl 5 language.
+ .
+ New packages should use the newer pcre2 packages, and existing
+ packages should migrate to pcre2.
+ .
+ This package contains the runtime library.
+
+Package: libssl1.1
+Version: 1.1.1k-1
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 3120
+Depends: ca-certificates
+Conflicts: libressl, libssl1.1.1
+Replaces: libressl, libssl1.1.1
+Provides: libressl, libssl1.1.1 (=1.1.1k-1)
+Filename: ./debs/libssl1.1_1.1.1k-1_iphoneos-arm.deb
+Size: 1429964
+MD5sum: 1cb6b5e4f6702396b7697f1920a7f3c9
+SHA1: fda114a7683d25bdb61958d2a96f63d6f4ef1fa6
+SHA256: f14a2ba9b5f4df1ddd48d17306d0073b152b1d50febdb9af1d020a66c668b62d
+Section: Libraries
+Priority: standard
+Description: Secure Sockets Layer toolkit - shared libraries
+ This package is part of the OpenSSL project's implementation of the SSL
+ and TLS cryptographic protocols for secure communication over the
+ Internet.
+ .
+ It provides the libssl and libcrypto shared libraries.
+Tag: purpose::library, role::developer
+Name: OpenSSL 1.1.x Libraries
 
 Package: me.nepeta.relocatemodule
 Version: 0.1.1

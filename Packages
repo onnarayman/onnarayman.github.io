@@ -418,6 +418,22 @@ Author: lordscotland
 Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mterminalDp
 Name: MTerminal
 
+Package: ncurses-term
+Version: 6.2+20201114
+Architecture: all
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1236
+Conflicts: ncurses (<< 6.2+20201114)
+Replaces: ncurses (<< 6.2+20201114)
+Filename: ./debs/ncurses-term_6.2+20201114_all.deb
+Size: 73956
+MD5sum: 0e1966a091a4f23f89cfd264f4907c0f
+SHA1: 7069bc207070098bf1c3982c573dc23c70e266aa
+SHA256: b62b2548db9e2e4c1c34cfcacdcf82d8ddc76d487c2738fdb04a2688a3c07bff
+Section: System
+Priority: required
+Description: This package contains terminfo data files to support most types of terminals.
+
 Package: net.angelxwind.appsyncunified-nofirmwaredepended
 Version: 84.0
 Architecture: iphoneos-arm

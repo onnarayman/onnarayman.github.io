@@ -235,24 +235,6 @@ Priority: required
 Homepage: http://github.com/ProcursusTeam/libiosexec
 Description: shim for execve w/ shell script support
 
-Package: libncursesw6
-Version: 6.2+20201114
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 616
-Depends: ncurses-term (>= 6.2+20201114)
-Conflicts: ncurses (<< 6.2+20201114)
-Replaces: ncurses (<< 6.2+20201114)
-Provides: ncurses (= 6.2+20201114)
-Filename: ./debs/libncursesw6_6.2+20201114_iphoneos-arm.deb
-Size: 206788
-MD5sum: 034e1132dda66a192429abb05fe97665
-SHA1: 28f0f56a96ef5ba12f5b3ac4d30bba8da1d0ae66
-SHA256: 3708f142736fb8c1098aa42146ed2ee08e47c4e7f0fc2938b084c663c2276019
-Section: Libraries
-Priority: required
-Description: shared libraries for terminal handling (wide character support)
-
 Package: libpcapa
 Version: 1.10.1
 Architecture: iphoneos-arm
@@ -417,22 +399,6 @@ Tag: purpose::uikit, role::enduser
 Author: lordscotland
 Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mterminalDp
 Name: MTerminal
-
-Package: ncurses-term
-Version: 6.2+20201114
-Architecture: all
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 1236
-Conflicts: ncurses (<< 6.2+20201114)
-Replaces: ncurses (<< 6.2+20201114)
-Filename: ./debs/ncurses-term_6.2+20201114_all.deb
-Size: 73956
-MD5sum: 0e1966a091a4f23f89cfd264f4907c0f
-SHA1: 7069bc207070098bf1c3982c573dc23c70e266aa
-SHA256: b62b2548db9e2e4c1c34cfcacdcf82d8ddc76d487c2738fdb04a2688a3c07bff
-Section: System
-Priority: required
-Description: This package contains terminfo data files to support most types of terminals.
 
 Package: net.angelxwind.appsyncunified-nofirmwaredepended
 Version: 84.0

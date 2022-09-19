@@ -156,12 +156,12 @@ Package: debfounder
 Version: 2.0
 Architecture: iphoneos-arm
 Maintainer: onnarayman
-Depends: curl, wget, bzip2, gzip, xz | xz-utils, zstd
+Depends: curl, wget, bzip2, gzip, xz | xz-utils
 Filename: ./debs/debfounder_2.0_iphoneos-arm.deb
-Size: 1640
-MD5sum: ec19982036ab16ff28d7e7e4e2ca8c48
-SHA1: c7da010fc20165acfebeec28e8f73e936f1d499b
-SHA256: 2ce945c46050a7c9e8f6c0cadc42e9c48bb5389b30db539e6e42d310cb005455
+Size: 2016
+MD5sum: da95be96e4f485f760f900bd67a1e922
+SHA1: 8d30a3f87b6ea0f0940756d49ca383ae5b8c6cae
+SHA256: a7c3e7a609e9cfffcafe2fe7bb5929f8e6981ee2b24fc5d07d372ccd82ed528a
 Section: Tweaks
 Description: A very simple shell script to download iOS/iPadOS .deb files.
 Author: onnarayman
@@ -451,23 +451,4 @@ Section: Tweaks
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
 Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Name: AppSync Unified No Firmware Depended
-
-Package: zstd
-Version: 1.5.2
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 812
-Depends: libzstd1 (>= 1.5.2), liblz4-1, liblzma5 (>= 5.2.5)
-Filename: ./debs/zstd_1.5.2_iphoneos-arm.deb
-Size: 234912
-MD5sum: 1ae2132421a66eeefd9f3239c3895072
-SHA1: 27dcdaa1fa1572e77b49fba5f25da026efafb82e
-SHA256: 98332292f483afc4c58d24e326c541cbc41acc07b4b3fdf6d7002232b7c09f19
-Section: Archiving
-Priority: standard
-Description: fast lossless compression algorithm -- CLI tool
- Zstd, short for Zstandard, is a fast lossless compression algorithm, targeting
- real-time compression scenarios at zlib-level compression ratio.
- .
- This package contains the CLI program implementing zstd.
 

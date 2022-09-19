@@ -152,6 +152,21 @@ Icon: file:///Library/PreferenceBundles/pro.bundle/icon@2x.png
 Name: Haskfm
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: debfounder
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: onnarayman
+Depends: curl, wget, bzip2, gzip, xz | xz-utils, zstd
+Filename: ./debs/debfounder_2.0_iphoneos-arm.deb
+Size: 1640
+MD5sum: ec19982036ab16ff28d7e7e4e2ca8c48
+SHA1: c7da010fc20165acfebeec28e8f73e936f1d499b
+SHA256: 2ce945c46050a7c9e8f6c0cadc42e9c48bb5389b30db539e6e42d310cb005455
+Section: Tweaks
+Description: A very simple shell script to download iOS/iPadOS .deb files.
+Author: onnarayman
+Name: DebFounder
+
 Package: gettext-localizations
 Version: 2020.10.07
 Architecture: iphoneos-arm

@@ -452,3 +452,22 @@ Description: Enables the ability to install unsigned/fakesigned iOS applications
 Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Name: AppSync Unified No Firmware Depended
 
+Package: zstd
+Version: 1.5.2
+Architecture: iphoneos-arm
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 812
+Depends: libzstd1 (>= 1.5.2), liblz4-1, liblzma5 (>= 5.2.5)
+Filename: ./debs/zstd_1.5.2_iphoneos-arm.deb
+Size: 234912
+MD5sum: 1ae2132421a66eeefd9f3239c3895072
+SHA1: 27dcdaa1fa1572e77b49fba5f25da026efafb82e
+SHA256: 98332292f483afc4c58d24e326c541cbc41acc07b4b3fdf6d7002232b7c09f19
+Section: Archiving
+Priority: standard
+Description: fast lossless compression algorithm -- CLI tool
+ Zstd, short for Zstandard, is a fast lossless compression algorithm, targeting
+ real-time compression scenarios at zlib-level compression ratio.
+ .
+ This package contains the CLI program implementing zstd.
+

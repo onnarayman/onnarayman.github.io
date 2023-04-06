@@ -1,16 +1,408 @@
-Package: me.surenix.vantaye
-Name: Vantaye
-Version: 1.1.6-1
-Architecture: iphoneos-arm
-Description: Imagines dark mode iOS icons
-Maintainer: Surenix <surenix@surenix.me>
-Author: Surenix <surenix@surenix.me>
-Depiction: http://www.surenix.me/repo/vantaye/index.html
-Icon: file:///Library/Themes/Vantaye.theme/IconBundles/Vantaye-Icon.png
-Section: Themes
-Tag: cydia::commercial
-Depends: com.spark.snowboard | net.dodtweaks.ithemer | com.anemonetheming.anemone | com.artikus.neonboard | winterboard
+ new Debian package, version 2.0.
+ size 2012240 bytes: control archive=512 bytes.
+     494 bytes,    12 lines      control              
+ Package: me.surenix.vantaye
+ Name: Vantaye
+ Version: 1.1.6-1
+ Architecture: iphoneos-arm
+ Description: Imagines dark mode iOS icons
+ Maintainer: Surenix <surenix@surenix.me>
+ Author: Surenix <surenix@surenix.me>
+ Depiction: http://www.surenix.me/repo/vantaye/index.html
+ Icon: file:///Library/Themes/Vantaye.theme/IconBundles/Vantaye-Icon.png
+ Section: Themes
+ Tag: cydia::commercial
+ Depends: com.spark.snowboard | net.dodtweaks.ithemer | com.anemonetheming.anemone | com.artikus.neonboard | winterboard
 Filename: ./packages/Rootful/Themes/Vantaye-1.1.6-1.deb
 md5: 176b008a5b0f006f2ab681d97e3a1b55
 sha1: f0fded178513e0838f77812d7d9f92420d9dabd4
 sha256: 8bea5785134e9bb403e036a389047591fc4ad6714776f40e0266192682511faa
+
+ new Debian package, version 2.0.
+ size 1712282 bytes: control archive=437 bytes.
+     485 bytes,    12 lines      control              
+ Package: me.surenix.ayecon
+ Name: ayecon
+ Version: 0.1-1
+ Architecture: iphoneos-arm
+ Description: A benchmark theme for iOS.
+ Maintainer: Surenix <surenix@surenix.me>
+ Author: Surenix <surenix@surenix.me>
+ Depiction: http://www.surenix.me/repo/ayecon/index.html
+ Icon: file:///Library/Themes/ayecon.theme/IconBundles/ayecon-Icon.png
+ Section: Themes
+ Tag: cydia::commercial
+ Depends: com.spark.snowboard | net.dodtweaks.ithemer | com.anemonetheming.anemone | com.artikus.neonboard | winterboard
+Filename: ./packages/Rootful/Themes/ayecon-iOS-14-0.1-1.deb
+md5: c0aa899c84f6c02dabcb2b9be82ba0d1
+sha1: a716a9e7f92fc36cde7c264e5e3f69263ba69e07
+sha256: 40010f15cc8b1187787e99fa9725c431c13f222ea9fba2725a77d65cf3c1b560
+
+ new Debian package, version 2.0.
+ size 3536 bytes: control archive=358 bytes.
+     297 bytes,    11 lines      control              
+ Package: com.ihack102.anghaminoads
+ Name: AnghamiNoAds
+ Depends: mobilesubstrate
+ Architecture: iphoneos-arm
+ Description: Patch Ads on Anghami App 😁
+ Maintainer: iHack102
+ Author: iHack102 <d-_-x@hotmail.com>
+ HomePage: https://twitter.com/ihack102
+ Section: Tweaks
+ Version: 0.0~-1
+ Installed-Size: 88
+Filename: ./packages/Rootful/Tweaks/com.ihack102.anghaminoads_0.0--1_iphoneos-arm.deb
+md5: 2c196fefa557c695f4a388cd9ef771c5
+sha1: c4c5adb751ee9c83f4b8d5d2a2469f8f71578a8d
+sha256: c454f9c1cc8a9ebfa9c848b4555b0ba3934c6f7a12790ebe9229d6eccc0070dc
+
+ new Debian package, version 2.0.
+ size 12632 bytes: control archive=396 bytes.
+     370 bytes,    17 lines      control              
+ Package: anondev.LocalIAPStore
+ Name: LocalIAPStore
+ Version: 1.0
+ Description: Pwns In-app purchases on iOS 4.3 - 6.0 (works with developer servers,in-appstore.com DNS needed)
+ Section: Tweaks
+ Depends: firmware (>= 4.3), mobilesubstrate
+ Conflicts: 
+ Replaces: 
+ Priority: optional
+ Architecture: iphoneos-arm
+ Author: anon dev
+ dev: 
+ Homepage: 
+ Depiction: 
+ Maintainer: 
+ Icon: 
+ 
+Filename: ./packages/Rootful/Tweaks/anondev.LocalIAPStore_1.0_iphoneos-arm.deb
+md5: 2075baeea166b1adb256d8333fec38b7
+sha1: 05385989a8fcd17b8c4c1c6c50bad7b6b3a8417e
+sha256: ae10ea4e369ed06d872859f996bbefdc543248450f2f066d4e75d82c547190c5
+
+ new Debian package, version 2.0.
+ size 68372 bytes: control archive=493 bytes.
+     529 bytes,    13 lines      control              
+ Package: anondev.LocalIAPStore
+ Name: LocalIAPStore
+ Version: 1.4-2
+ Description: Pwns In-app purchases on iOS 5.1.1 - 10.2 (works with developer servers,in-appstore.com DNS needed). 64bit compatible
+ Section: Tweaks
+ Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
+ Priority: optional
+ Architecture: iphoneos-arm
+ Author: anondev
+ Depiction: http://mdallak.github.io/depic/index.html?p=LocalIAPStore
+ Maintainer: M Dallak <m_dallak@outlook.com>
+ Icon: file:///Library/PreferenceLoader/Preferences/LocalIAPStoreIcon@2x.png
+ 
+Filename: ./packages/Rootful/Tweaks/anondev.localiapstore_1.4-2_iphoneos-arm.deb
+md5: 90911d56767eeae8ce2a58fc66fc6331
+sha1: f0d1eabba819cda7980407dbc469c8431b971b3f
+sha256: 84afad6b4e65c255c1aacce94d7ed2946b6b7a6b9222f2e8e45ba5a1caea9e5d
+
+ new Debian package, version 2.0.
+ size 44822 bytes: control archive=4687 bytes.
+     405 bytes,    11 lines      control              
+  132640 bytes,    28 lines   *  preinst              
+ Package: jp.akusio.milkyway2
+ Name: MilkyWay2
+ Depends: mobilesubstrate, jp.akusio.backgrounderaction13, applist, preferenceloader
+ Architecture: iphoneos-arm
+ Description: multitasking for iOS13.
+ Depiction: http://akusio.github.io/descriptions/milkyway2/index.html
+ Maintainer: akusio <akusio-report@neko2.net>
+ Author: akusio <akusio-report@neko2.net>
+ Section: Tweaks
+ Version: 0.2.0-alpha
+ Installed-Size: 376
+Filename: ./packages/Rootful/Tweaks/jp.akusio.milkyway2_0.2.0-alpha_iphoneos-arm.deb
+md5: 45aff19ea7b0327a72e50c4a87d68cd8
+sha1: a779498db20097cef4783e6d817796d640bd6372
+sha256: 9c1aa016b720ecfaa6f3176cd88454ec8767f1832306b69cda85e3ed734165e3
+
+ new Debian package, version 2.0.
+ size 14078 bytes: control archive=4707 bytes.
+     446 bytes,    11 lines      control              
+  132640 bytes,    28 lines   *  preinst              
+ Package: jp.akusio.backgrounderaction13
+ Name: BackgrounderAction2 for CCSupport
+ Depends: mobilesubstrate, com.opa334.ccsupport
+ Architecture: iphoneos-arm
+ Description: [iOS13]Add "Toggle Background Mode" action to ControlCenter.
+ Depiction: https://akusio.github.io/descriptions/backgrounderaction13/index.html
+ Maintainer: akusio <akusio-report@neko2.net>
+ Author: akusio <akusio-report@neko2.net>
+ Section: Tweaks
+ Version: 0.1.4
+ Installed-Size: 244
+Filename: ./packages/Rootful/Tweaks/jp.akusio.backgrounderaction13_0.1.4_iphoneos-arm.deb
+md5: c310760bda4ccc7e5ed3722aed9ef7de
+sha1: b8619c32ee626b06376975eb84beecfd65cdae84
+sha256: ad5dc505166d41fd2d60bd1ff9223e46ff1ba48999a57483cc78d8c946dec9c0
+
+ new Debian package, version 2.0.
+ size 165090 bytes: control archive=540 bytes.
+     683 bytes,    17 lines      control              
+ Name: Haskfm
+ Package: com.q8crack.haskfm
+ Priority: optional
+ Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+ Version: 1.0
+ Architecture: iphoneos-arm
+ Description: enhancement tweaks for Askfm app
+ Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=haskfmDp
+ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=haskfmDp
+ Sponsor: thebigboss.org <http://thebigboss.org>
+ Maintainer: BigBoss <bigboss@thebigboss.org>
+ Author: fahadaljuwausri <bofahadkwt5@gmail.com>
+ Section: Tweaks
+ Tag: purpose::extension, compatible::ios10
+ Installed-Size: 559
+ dev: fahadaljuwausri
+ Icon: file:///Library/PreferenceBundles/pro.bundle/icon@2x.png
+Filename: ./packages/Rootful/Tweaks/haskfm_1.0.deb
+md5: 8b229b61ff767ff9526d33528ade5b42
+sha1: 9e54b00d783e37afc80ffe460dddacec9da9fd98
+sha256: 713ae76e4db2949e74f165f7077b484c71e3e16529181be8f66a6bd9f592b6ac
+
+ new Debian package, version 2.0.
+ size 70024 bytes: control archive=568 bytes.
+     390 bytes,    11 lines      control              
+      83 bytes,     5 lines   *  postinst             #!/bin/bash
+      83 bytes,     5 lines   *  postrm               #!/bin/bash
+ Package: me.nepeta.relocatereborn
+ Section: Tweaks
+ Installed-Size: 492
+ Maintainer: Nepeta
+ Architecture: iphoneos-arm
+ Version: 1.0.1
+ Depends: mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 13.0), applist, com.rpetrich.rocketbootstrap (>= 0.1.7), preferenceloader
+ Conflicts: me.nepeta.relocate
+ Description: Minimalist GPS spoofer (free, iOS 13+)
+ Name: Relocate Reborn
+ Author: Nepeta
+Filename: ./packages/Rootful/Tweaks/me.nepeta.relocatereborn_1.0.1_iphoneos-arm.deb
+md5: d072cf45d0f1f3be81b841a877d880d5
+sha1: 110b2d8d7cc38cb5202b6d62ce394d2372be9009
+sha256: 71567fb157b13d3ce7de9ae51dd43949f7336f0c669f6341cc984e8cad948ab8
+
+ new Debian package, version 2.0.
+ size 46254 bytes: control archive=376 bytes.
+     304 bytes,    10 lines      control              
+ Package: com.julioverne.deezelife
+ Name: Deezelife
+ Author: julioverne
+ Version: 0.5
+ Depends: mobilesubstrate
+ Architecture: iphoneos-arm
+ Description: Deezer Fully Premium Features, Unrestrict Music... Requires Deezer App (AppStore)
+ Homepage: http://twitter.com/ijulioverne
+ Maintainer: Julio
+ Section: Tweaks
+Filename: ./packages/Rootful/Tweaks/com.julioverne.deezelife_0.5_iphoneos-arm.deb
+md5: b28403c64ad363a0cb13f69fecbc84b9
+sha1: f10f9c62360f5a7dbf21a8599754bc062f84c65b
+sha256: 96b607ea2137f409d32a74138d815e903bc1224a67ce0385a98a708eaaf148b9
+
+ new Debian package, version 2.0.
+ size 27120 bytes: control archive=496 bytes.
+     434 bytes,    10 lines      control              
+ Package: me.nepeta.relocatemodule
+ Name: Relocate Module (Control Center)
+ Architecture: iphoneos-arm
+ Description: CC toggle for Relocate (GPS location spoofer).
+ Depends: mobilesubstrate, com.opa334.ccsupport, ws.hbang.common (>= 1.11), firmware (>= 11.0), me.nepeta.relocatereborn (>= 1.0.1)
+ Maintainer: Nepeta <ominousness@protonmail.com>
+ Author: Nepeta <ominousness@protonmail.com>
+ Section: Tweaks
+ Version: 0.1.1
+ Installed-Size: 168
+Filename: ./packages/Rootful/Tweaks/me.nepeta.relocatemodule_0.1.1_iphoneos-arm.deb
+md5: 8dc883d4e0cdc0082099e18373648003
+sha1: e1b999b5493d3d850f3b35d810f13b172db5246c
+sha256: 7023330e007b94218aa55d17f482f9a78f5d806780c9e8e929fd27db5fbb583c
+
+ new Debian package, version 2.0.
+ size 4003144 bytes: control archive=368 bytes.
+     207 bytes,     8 lines   *  control              
+ Package: com.darkt.bigsurbar
+ Name: BigSurBar
+ Version: 2.0
+ Architecture: iphoneos-arm64
+ Description: MacOS Big Sur Statusbar
+ Author: DarkT
+ Maintainer: DarkT <errorlocaa@gmail.com>
+ Section: Homescreen Widgets
+Filename: ./packages/Rootless/Themes/com.darkt.bigsurbar_2.0_iphoneos-arm64.deb
+md5: bb3ad58304562af39b2f2ce58bbe43bb
+sha1: 6a6ddca0f4029cbe5bf744e1d031a4bd273236fb
+sha256: 0772f130d1866c400e7f054f18106a87ca98723656cd3502422f5b083522f26b
+
+ new Debian package, version 2.0.
+ size 11940588 bytes: control archive=380 bytes.
+     259 bytes,     9 lines   *  control              
+ Package: in.tnttaol.darkerlite
+ Name: Darker
+ Version: 2.9.1
+ Section: Themes
+ Architecture: iphoneos-arm64
+ Author: ItsTNT <hello@tnttaol.in>
+ Maintainer: ItsTNT <hello@tnttaol.in>
+ Description: Same icons, same style, just darker.
+ Homepage: https://darker.tntt.me
+Filename: ./packages/Rootless/Themes/in.tnttaol.darkerlite_2.9.1_iphoneos-arm64.deb
+md5: aadc494698cbf3c20cbd52ca643310cf
+sha1: d586e3b93e80c90a7712e40e2cd648376cbeb643
+sha256: 0020cdc11e89736f914449d9c930dc516abef9e0fa1c3a4f8e82d67e82a0be3b
+
+ new Debian package, version 2.0.
+ size 1692464 bytes: control archive=516 bytes.
+     487 bytes,    12 lines      control              
+ Package: me.surenix.ayecon
+ Name: ayecon
+ Version: 0.1-1
+ Architecture: iphoneos-arm64
+ Description: A benchmark theme for iOS.
+ Maintainer: Surenix <surenix@surenix.me>
+ Author: Surenix <surenix@surenix.me>
+ Depiction: http://www.surenix.me/repo/ayecon/index.html
+ Icon: file:///Library/Themes/ayecon.theme/IconBundles/ayecon-Icon.png
+ Section: Themes
+ Tag: cydia::commercial
+ Depends: com.spark.snowboard | net.dodtweaks.ithemer | com.anemonetheming.anemone | com.artikus.neonboard | winterboard
+Filename: ./packages/Rootless/Themes/me.surenix.ayecon_0.1-1_iphoneos-arm64.deb
+md5: 8ea5323d0f5321b0fc31e6bdda2cfba1
+sha1: 32d8ab67feef00bb11db2308b9b7aa2cc304d31a
+sha256: 42bb882c43fef37b7b562c614c83f93edd916787f46b00114157e8bd1380ab46
+
+ new Debian package, version 2.0.
+ size 8223220 bytes: control archive=580 bytes.
+     291 bytes,     9 lines      control              
+     580 bytes,    16 lines   *  postinst             
+ Package: com.bank5ia.iosx
+ Name: iOSX
+ Version: 0.6.1
+ Section: Themes
+ Architecture: iphoneos-arm64
+ Depends: com.spark.snowboard | net.dodtweaks.ithemer | com.anemonetheming.anemone | com.artikus.neonboard | winterboard
+ Author: Bank5ia
+ Maintainer: Bank5ia
+ Description: iOS with a hint of MacOS
+Filename: ./packages/Rootless/Themes/com.bank5ia.iosx_0.6.1_iphoneos-arm64.deb
+md5: 1f732e4837b913cb422749fe18438d53
+sha1: dd068025a757f2a6792ef5b70beb4dabbd8000dc
+sha256: 26659310b73008748064b75a2ede7a88b51193b8cccf5e3e2a6ac1b1cb39bce7
+
+ new Debian package, version 2.0.
+ size 2051496 bytes: control archive=428 bytes.
+     310 bytes,     9 lines      control              
+ Package: me.surenix.ayedapt
+ Name: Ayedapt
+ Version: 1.0.10
+ Architecture: iphoneos-arm64
+ Description: Light and dark home screen icons
+ Maintainer: Surenix
+ Author: Surenix
+ Section: Tweak/Theme
+ Depends: com.spark.snowboard | net.dodtweaks.ithemer | com.anemonetheming.anemone | com.artikus.neonboard | winterboard
+Filename: ./packages/Rootless/Themes/me.surenix.ayedapt_1.0.10_iphoneos-arm64.deb
+md5: fd2abf6b823fbe8d34dba9fb492213e4
+sha1: 00c7be2e4440a68dd62b570aa23a8d7e923b7ca3
+sha256: ed117f794dc6d5175d903319c01d07ca8226e91c217efcc8f4e3fb8c8fadf2d2
+
+ new Debian package, version 2.0.
+ size 5281276 bytes: control archive=452 bytes.
+     412 bytes,    11 lines      control              
+ Package: com.hexacorerepo.mobilesur
+ Name: Mobile Sur
+ Version: 2.0.1
+ Architecture: iphoneos-arm64
+ Description: Big Sur in Your Pocket.
+ Author: IceCool Tech
+ Maintainer: IceCool Tech
+ Section: Themes
+ Depends: com.spark.snowboard | com.anemonetheming.anemone
+ Depiction: https://hexacorerepo.github.io/packageInfo/com.hexacorerepo.mobilesur/mobilesur.html
+ Icon: https://hexacorerepo.github.io/images/mobilesurlogo.png
+Filename: ./packages/Rootless/Themes/com.hexacorerepo.mobilesur_2.0.1_iphoneos-arm64.deb
+md5: 3597dfbce07af99c81dc5c1af32602f3
+sha1: 3d81f94568351fb1ce9b7aa7215cb1d781f0617c
+sha256: 12065dcb843a6bce66ba8bacf75bbb770fd1daaf90de2d5f936e93ad5be7c8df
+
+ new Debian package, version 2.0.
+ size 6843804 bytes: control archive=444 bytes.
+     358 bytes,    11 lines      control              
+ Package: com.hexacorerepo.classicios
+ Name: Classic iOS
+ Version: 1.3.0
+ Architecture: iphoneos-arm64
+ Description: What's Old is New. Again.
+ Author: IceCool Tech
+ Maintainer: IceCool Tech
+ Section: Themes
+ Depends: com.spark.snowboard | com.anemonetheming.anemone 
+ Depiction: https://hexacorerepo.github.io/packageInfo/com.hexacorerepo.classicios/classicios.html
+ 
+Filename: ./packages/Rootless/Themes/com.hexacorerepo.classicios_1.3.0_iphoneos-arm64.deb
+md5: bf3daa45649f4f160a8417b40a944822
+sha1: 0b5b5d8a1e769bcbd62074468eaeab26e2893401
+sha256: 07596e4a14c010d205454f6c4cc51d1d90d2306c6c44bc4bc0bb59654dbf3d3a
+
+ new Debian package, version 2.0.
+ size 8795092 bytes: control archive=476 bytes.
+     438 bytes,    11 lines      control              
+ Package: com.hexacorerepo.modern6
+ Name: Modern 6
+ Version: 3.0.0
+ Architecture: iphoneos-arm64
+ Description: The World's Most Advanced iOS 6 Theme.
+ Author: IceCool Tech
+ Maintainer: IceCool Tech
+ Section: Themes
+ Depends: firmware (>= 13.0) | com.spark.snowboard | com.anemonetheming.anemone
+ Depiction: https://hexacorerepo.github.io/packageInfo/com.hexacorerepo.modern6/modern6.html
+ Icon: https://hexacorerepo.github.io/images/modern6logo.png
+Filename: ./packages/Rootless/Themes/com.hexacorerepo.modern6_3.0.0_iphoneos-arm64.deb
+md5: 3f1f90836a7f0080fd0d163154d7ae58
+sha1: 1ac4557a133c0b9c2df9f956fa57c80e2c2f0f08
+sha256: ea64f93343eaf63e97d1701500b3ead0ea003203fefcf68fe92b1662d55ed7d6
+
+ new Debian package, version 2.0.
+ size 2012284 bytes: control archive=520 bytes.
+     496 bytes,    12 lines      control              
+ Package: me.surenix.vantaye
+ Name: Vantaye
+ Version: 1.1.6-1
+ Architecture: iphoneos-arm64
+ Description: Imagines dark mode iOS icons
+ Maintainer: Surenix <surenix@surenix.me>
+ Author: Surenix <surenix@surenix.me>
+ Depiction: http://www.surenix.me/repo/vantaye/index.html
+ Icon: file:///Library/Themes/Vantaye.theme/IconBundles/Vantaye-Icon.png
+ Section: Themes
+ Tag: cydia::commercial
+ Depends: com.spark.snowboard | net.dodtweaks.ithemer | com.anemonetheming.anemone | com.artikus.neonboard | winterboard
+Filename: ./packages/Rootless/Themes/me.surenix.vantaye_1.1.6-1_iphoneos-arm64.deb
+md5: 13594fc67c42a711cbf33775f1c16817
+sha1: 48b04de2ffb8cc1537e771af88035df5457f0ec3
+sha256: ed1321fdf22d7d8793677e5263c288d424f0ef429e72d88931197e08b2a8cef0
+
+ new Debian package, version 2.0.
+ size 1400 bytes: control archive=364 bytes.
+     218 bytes,     9 lines      control              
+ Package: com.onnarayman.scanpackages
+ Name: scanpackages
+ Architecture: iphoneos-arm64
+ Maintainer: on
+ Depends: dpkg, sed, gzip
+ Description: Scan all packages in folder.
+ Section: Packaging
+ Author: onnarayman
+ Version: 1.0
+Filename: ./packages_1.0_iphoneos-arm64.deb
+md5: 585cfb433ad326381533ab2b4a09a8b7
+sha1: b131fb2d333eef95f38a5f435aa3e07ba7a03c0c
+sha256: 80a69b84f050b484cc53d037d70ffc48e2c9f3c936475679b394ecfb0bd38a6f

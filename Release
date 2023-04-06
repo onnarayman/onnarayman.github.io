@@ -2,7 +2,8 @@ Origin: ꪫꪑꪖꪚ
 Label: ꪫꪑꪖꪚ
 Suite: stable
 Version: 1.0
-Codename: ios
-Architectures: iphoneos-arm
+Codename: onnarayman
+Architectures: iphoneos-arm iphoneos-arm64
 Components: main
-Description: Repo for my pesonal debs.
+Description: onnarayman's iOS Jailbreak Repository.
+Icon: file://icon.png

@@ -229,10 +229,10 @@ Installed-Size: 268
 Name: DumpBinaryFiles
 Author: Netskao
 Description: Provide list for dynamic decryption of binary files, Easy to apply reverse engineering
-Filename: ./packages/Rootful/Netskao-Tweaks/4307.deb
-MD5sum: d50dfc14346b65ba9beb6bfc4f740d0d
-SHA1: 3e33e5b1f065569dd531014a890156558c218ded
-SHA256: b9f31f3a0c365bb58cd69ddd94dbadf9b73645736f4cc5d080b8c56438bceddd
+Filename: ./packages/Rootful/Netskao-Tweaks/netskao.dumpbinaryfiles_1.2-1_iphoneos-arm.deb
+MD5sum: a47160fad05f54207c3ec469ef1442f4
+SHA1: bb8488e91ec5388fc5eafdb04159cb652c1cfa0e
+SHA256: e670db2fd975e5ce675caa9d7bedf753ac2d23d7b4b9c20a97b2234cbc1a8aab
 
 Package: com.darkt.bigsurbar
 Name: BigSurBar
@@ -394,7 +394,7 @@ Installed-Size: 268
 Name: DumpBinaryFiles-Rootless
 Author: Netskao
 Description: Provide list for dynamic decryption of binary files, Easy to apply reverse engineering
-Filename: ./packages/Rootless/Netskao-Tweaks/4308.deb
-MD5sum: 8f028305cd3913ab11d4633dc3003f02
-SHA1: 0ff7ee1554e9fe3e7068f583255812fcb7535841
-SHA256: 71893e21cac3ed23f354b2b7c5863aaf0898978270bf41f616f920f1f1c07141
+Filename: ./packages/Rootless/Netskao-Tweaks/netskao.dumpbinaryfiles-rootless_1.2-1_iphoneos-arm64.deb
+MD5sum: 04246a7f08408f6a0ea0bb575c86ab91
+SHA1: c4c409c0d86a6e1e44859e554042f123937e1149
+SHA256: 1347e0dd96a9b1cf8f6c077e974642c324d85a4188ca6b026ab4361873e8d645

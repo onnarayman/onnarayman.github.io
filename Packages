@@ -37,10 +37,10 @@ Architecture: iphoneos-arm64
 Maintainer: IceCool Tech
 Depends: com.spark.snowboard | com.anemonetheming.anemone
 Filename: ./packages/Rootless/Themes/com.hexacorerepo.cali_1.0.0_iphoneos-arm64.deb
-Size: 4569804
-MD5sum: 8a36181d95fd5f3b4a883bc702031d56
-SHA1: 27c99a8784b2875c9f9466bfba47437a4a67f8dc
-SHA256: 548d66b25c7f2340e133d548ce514127f0229a6fd0c923797196224db21aa19b
+Size: 4569656
+MD5sum: b37534fe671744a97b2ce3a7fe35f8b8
+SHA1: 415c338662c03db82d7ac36f43a1765a876c6ede
+SHA256: 9f0a3ba10ed4b074c8219ed3c747a8e783a8c5622a7a04e05ab6c403f0b9f138
 Section: Themes
 Description: Catalina on iOS.
 Author: IceCool Tech
@@ -181,21 +181,6 @@ Description: Spotify Unlimited Skips, Remove ADs, Extreme Quality Stream Unlocke
 Author: julioverne
 Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.spotilife
 Name: Spotilife
-
-Package: com.onnarayman.scanpackages
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: onnarayman
-Depends: dpkg, dpkg-dev, sed, gzip
-Filename: ./packages/Rootless/Scripting/com.onnarayman.scanpackages_1.0_iphoneos-arm64.deb
-Size: 1584
-MD5sum: ff520131672641f27ed47167054859a0
-SHA1: 30a97afb13cdcd362b6a0b7c624203fc2344b117
-SHA256: 477bf4e4646a7e34d0783cc11872a23ddd7c928e3d61e9724e505b260db47695
-Section: Scripting
-Description: Scan every deb file in folder to (Packages, Packages.bz2) files, (including rmdepiction). 'scanpackages' and follow the instructions or 'rmdepiction' to remove depiction from scanned deb files in Packages file.
-Author: onnarayman
-Name: scanpackages
 
 Package: com.q8crack.haskfm
 Version: 1.0

@@ -1,0 +1,326 @@
+Package: anondev.LocalIAPStore
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: firmware (>= 4.3), mobilesubstrate
+Filename: ./packages/Rootful/Tweaks/anondev.LocalIAPStore_1.0_iphoneos-arm.deb
+Size: 12632
+MD5sum: 2075baeea166b1adb256d8333fec38b7
+SHA1: 05385989a8fcd17b8c4c1c6c50bad7b6b3a8417e
+SHA256: ae10ea4e369ed06d872859f996bbefdc543248450f2f066d4e75d82c547190c5
+Section: Tweaks
+Priority: optional
+Description: Pwns In-app purchases on iOS 4.3 - 6.0 (works with developer servers,in-appstore.com DNS needed)
+Author: anon dev
+Name: LocalIAPStore
+
+Package: anondev.LocalIAPStore
+Version: 1.4-2
+Architecture: iphoneos-arm
+Maintainer: M Dallak <m_dallak@outlook.com>
+Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
+Filename: ./packages/Rootful/Tweaks/anondev.localiapstore_1.4-2_iphoneos-arm.deb
+Size: 68372
+MD5sum: 90911d56767eeae8ce2a58fc66fc6331
+SHA1: f0d1eabba819cda7980407dbc469c8431b971b3f
+SHA256: 84afad6b4e65c255c1aacce94d7ed2946b6b7a6b9222f2e8e45ba5a1caea9e5d
+Section: Tweaks
+Priority: optional
+Description: Pwns In-app purchases on iOS 5.1.1 - 10.2 (works with developer servers,in-appstore.com DNS needed). 64bit compatible
+Author: anondev
+Depiction: http://mdallak.github.io/depic/index.html?p=LocalIAPStore
+Icon: file:///Library/PreferenceLoader/Preferences/LocalIAPStoreIcon@2x.png
+Name: LocalIAPStore
+
+Package: com.ihack102.anghaminoads
+Version: 0.0~-1
+Architecture: iphoneos-arm
+Maintainer: iHack102
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: ./packages/Rootful/Tweaks/com.ihack102.anghaminoads_0.0--1_iphoneos-arm.deb
+Size: 3536
+MD5sum: 2c196fefa557c695f4a388cd9ef771c5
+SHA1: c4c5adb751ee9c83f4b8d5d2a2469f8f71578a8d
+SHA256: c454f9c1cc8a9ebfa9c848b4555b0ba3934c6f7a12790ebe9229d6eccc0070dc
+Section: Tweaks
+Homepage: https://twitter.com/ihack102
+Description: Patch Ads on Anghami App 😁
+Author: iHack102 <d-_-x@hotmail.com>
+Name: AnghamiNoAds
+
+Package: com.julioverne.cydown
+Version: 6.8.8
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Filename: ./packages/Rootful/Tweaks/com.julioverne.cydown_6.8.8_iphoneos-arm.deb
+Size: 1022462
+MD5sum: a755b483a40400466f828ec1addd6142
+SHA1: 77b4003dfd778fde1a1c448285f6e63812e96b94
+SHA256: 463c9e8b992f97f04762705df7fb2c53311310c2d6e8b2b7e082ebdca41b9fd5
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Cydia Download Manager & Extra Features!
+Author: julioverne <julioverne@me.com>
+Depiction: http://julio.xarold.com/files-deb/cydown.html
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+Name: CyDown
+
+Package: com.julioverne.deezelife
+Version: 0.5
+Architecture: iphoneos-arm64
+Maintainer: Julio
+Depends: mobilesubstrate
+Filename: ./packages/Rootless/Tweaks/com.julioverne.deezelife_0.5_iphoneos-arm64.deb
+Size: 32060
+MD5sum: e740c30c0ecb3eb35dc1e0a8b3ccd835
+SHA1: 80493a2f626ba85e118a9406ae4d90729c9be7a1
+SHA256: 44d242ac9abb83a7593a78a0abc3d8bcf6e5492347a04d9a97793d366a6536e1
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Deezer Fully Premium Features, Unrestrict Music... Requires Deezer App (AppStore)
+Author: julioverne
+Name: Deezelife
+
+Package: com.julioverne.deezelife
+Version: 0.5
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: mobilesubstrate
+Filename: ./packages/Rootful/Tweaks/com.julioverne.deezelife_0.5_iphoneos-arm.deb
+Size: 46254
+MD5sum: b28403c64ad363a0cb13f69fecbc84b9
+SHA1: f10f9c62360f5a7dbf21a8599754bc062f84c65b
+SHA256: 96b607ea2137f409d32a74138d815e903bc1224a67ce0385a98a708eaaf148b9
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Deezer Fully Premium Features, Unrestrict Music... Requires Deezer App (AppStore)
+Author: julioverne
+Name: Deezelife
+
+Package: com.julioverne.spotilife
+Version: 1.1a
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: mobilesubstrate
+Filename: ./packages/Rootful/Tweaks/com.julioverne.spotilife-1.1a-iphoneos-arm.deb
+Size: 201134
+MD5sum: 4be44d65dcb7c50576a0f73cf970df7e
+SHA1: 242c0a52df8a20d19ac72cd8e654e4eeff9ca6bd
+SHA256: e4c31947d1a48d2ea381c6b08c447f52da97a1ad0b85b16a435946abd32a6639
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Spotify Unlimited Skips, Remove ADs, Extreme Quality Stream Unlocked... Requires Spotify App (AppStore)
+Author: julioverne
+Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.spotilife
+Name: Spotilife
+
+Package: com.q8crack.haskfm
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 559
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./packages/Rootful/Tweaks/haskfm_1.0.deb
+Size: 165090
+MD5sum: 8b229b61ff767ff9526d33528ade5b42
+SHA1: 9e54b00d783e37afc80ffe460dddacec9da9fd98
+SHA256: 713ae76e4db2949e74f165f7077b484c71e3e16529181be8f66a6bd9f592b6ac
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=haskfmDp
+Description: enhancement tweaks for Askfm app
+Tag: purpose::extension, compatible::ios10
+Author: fahadaljuwausri <bofahadkwt5@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=haskfmDp
+Dev: fahadaljuwausri
+Icon: file:///Library/PreferenceBundles/pro.bundle/icon@2x.png
+Name: Haskfm
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.thearmking.amogus
+Version: 2023.3.28
+Architecture: iphoneos-arm64
+Maintainer: TheArmKing
+Installed-Size: 580
+Depends: mobilesubstrate
+Filename: ./packages/Rootless/Tweaks/com.thearmking.amogus_2023.3.28_iphoneos-arm64.deb
+Size: 205432
+MD5sum: eb41eae9d42c535c48c16e5b3fa784d9
+SHA1: 6edd9bfdbf4abf607b4397c383f6e13fc74fba13
+SHA256: 793eaebce2321f232e639115a048b4c0db7a5c76cf12fab9ee455432e6136b2e
+Section: Tweaks
+Homepage: https://platinmods.com
+Description: [PMT] Among Us 2023.3.28 - MOD by TheArmKing @Platinmods.com
+Author: TheArmKing
+Name: [PMT]Among Us - JB MOD
+
+Package: iOSGods.com.AmongUS
+Version: 2023.2.28+iOSGods.com
+Architecture: iphoneos-arm64
+Maintainer: iOSGods.com
+Installed-Size: 8544
+Depends: mobilesubstrate
+Filename: ./packages/Rootless/Tweaks/iOSGods.com.AmongUS_2023.2.28+iOSGods.com_iphoneos-arm64.deb
+Size: 1628896
+MD5sum: 6b48e70d9cd0f3259ef8b125f6fffd37
+SHA1: 7f0e237fd5fc27f0639ae049968c36da4129bbfb
+SHA256: ef169c5cd6b11e3544bca086cecddcd94bf06fd23c938b8cfccbcc2ff61e67ba
+Section: Tweaks
+Homepage: https://iosgods.com
+Description: Among Us! iGMM Cheats by Laxus for iOSGods.com!
+Author: Laxus
+Name: Among Us! Cheats
+
+Package: jp.akusio.backgrounderaction13
+Version: 0.1.4
+Architecture: iphoneos-arm
+Maintainer: akusio <akusio-report@neko2.net>
+Installed-Size: 244
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./packages/Rootful/Tweaks/jp.akusio.backgrounderaction13_0.1.4_iphoneos-arm.deb
+Size: 14078
+MD5sum: c310760bda4ccc7e5ed3722aed9ef7de
+SHA1: b8619c32ee626b06376975eb84beecfd65cdae84
+SHA256: ad5dc505166d41fd2d60bd1ff9223e46ff1ba48999a57483cc78d8c946dec9c0
+Section: Tweaks
+Description: [iOS13]Add "Toggle Background Mode" action to ControlCenter.
+Author: akusio <akusio-report@neko2.net>
+Depiction: https://akusio.github.io/descriptions/backgrounderaction13/index.html
+Name: BackgrounderAction2 for CCSupport
+
+Package: jp.akusio.milkyway2
+Version: 0.2.0-alpha
+Architecture: iphoneos-arm
+Maintainer: akusio <akusio-report@neko2.net>
+Installed-Size: 376
+Depends: mobilesubstrate, jp.akusio.backgrounderaction13, applist, preferenceloader
+Filename: ./packages/Rootful/Tweaks/jp.akusio.milkyway2_0.2.0-alpha_iphoneos-arm.deb
+Size: 44822
+MD5sum: 45aff19ea7b0327a72e50c4a87d68cd8
+SHA1: a779498db20097cef4783e6d817796d640bd6372
+SHA256: 9c1aa016b720ecfaa6f3176cd88454ec8767f1832306b69cda85e3ed734165e3
+Section: Tweaks
+Description: multitasking for iOS13.
+Author: akusio <akusio-report@neko2.net>
+Depiction: http://akusio.github.io/descriptions/milkyway2/index.html
+Name: MilkyWay2
+
+Package: jp.akusio.milkyway2-forios15
+Version: 0.2.0-alpha
+Architecture: iphoneos-arm64
+Maintainer: akusio <akusio-report@neko2.net>
+Installed-Size: 376
+Depends: mobilesubstrate, jp.akusio.backgrounderaction15, preferenceloader, oldabi, com.brend0n.milkyway2-ios14fix
+Filename: ./packages/Rootless/Tweaks/jp.akusio.milkyway2-forios15_0.2.0-alpha_iphoneos-arm64.deb
+Size: 32764
+MD5sum: 12ec720538bf71273e6aede4d324cb00
+SHA1: 2466d180e3d5359748b5511503def07cea1d6ad4
+SHA256: 00dbc5f368eb0a660eb049d5594ae023acb181006c36a42cdfca8542a388478f
+Section: Tweaks
+Description: multitasking for iOS13.
+Author: akusio <akusio-report@neko2.net>
+Depiction: http://akusio.github.io/descriptions/milkyway2/index.html
+Name: MilkyWay2-ForiOS15
+
+Package: me.nepeta.relocatemodule
+Version: 0.1.1
+Architecture: iphoneos-arm
+Maintainer: Nepeta <ominousness@protonmail.com>
+Installed-Size: 168
+Depends: mobilesubstrate, com.opa334.ccsupport, ws.hbang.common (>= 1.11), firmware (>= 11.0), me.nepeta.relocatereborn (>= 1.0.1)
+Filename: ./packages/Rootful/Tweaks/me.nepeta.relocatemodule_0.1.1_iphoneos-arm.deb
+Size: 27120
+MD5sum: 8dc883d4e0cdc0082099e18373648003
+SHA1: e1b999b5493d3d850f3b35d810f13b172db5246c
+SHA256: 7023330e007b94218aa55d17f482f9a78f5d806780c9e8e929fd27db5fbb583c
+Section: Tweaks
+Description: CC toggle for Relocate (GPS location spoofer).
+Author: Nepeta <ominousness@protonmail.com>
+Name: Relocate Module (Control Center)
+
+Package: me.nepeta.relocatereborn
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Nepeta
+Installed-Size: 492
+Depends: mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 13.0), applist, com.rpetrich.rocketbootstrap (>= 0.1.7), preferenceloader
+Conflicts: me.nepeta.relocate
+Filename: ./packages/Rootful/Tweaks/me.nepeta.relocatereborn_1.0.1_iphoneos-arm.deb
+Size: 70024
+MD5sum: d072cf45d0f1f3be81b841a877d880d5
+SHA1: 110b2d8d7cc38cb5202b6d62ce394d2372be9009
+SHA256: 71567fb157b13d3ce7de9ae51dd43949f7336f0c669f6341cc984e8cad948ab8
+Section: Tweaks
+Description: Minimalist GPS spoofer (free, iOS 13+)
+Author: Nepeta
+Name: Relocate Reborn
+
+Package: me.surenix.ayecon
+Version: 0.1-1
+Architecture: iphoneos-arm
+Maintainer: Surenix <surenix@surenix.me>
+Depends: com.spark.snowboard | net.dodtweaks.ithemer | com.anemonetheming.anemone | com.artikus.neonboard | winterboard
+Filename: ./packages/Rootful/Themes/ayecon-iOS-14-0.1-1.deb
+Size: 1712282
+MD5sum: c0aa899c84f6c02dabcb2b9be82ba0d1
+SHA1: a716a9e7f92fc36cde7c264e5e3f69263ba69e07
+SHA256: 40010f15cc8b1187787e99fa9725c431c13f222ea9fba2725a77d65cf3c1b560
+Section: Themes
+Description: A benchmark theme for iOS.
+Tag: cydia::commercial
+Author: Surenix <surenix@surenix.me>
+Depiction: http://www.surenix.me/repo/ayecon/index.html
+Icon: file:///Library/Themes/ayecon.theme/IconBundles/ayecon-Icon.png
+Name: ayecon
+
+Package: me.surenix.vantaye
+Version: 1.1.6-1
+Architecture: iphoneos-arm
+Maintainer: Surenix <surenix@surenix.me>
+Depends: com.spark.snowboard | net.dodtweaks.ithemer | com.anemonetheming.anemone | com.artikus.neonboard | winterboard
+Filename: ./packages/Rootful/Themes/Vantaye-1.1.6-1.deb
+Size: 2012240
+MD5sum: 176b008a5b0f006f2ab681d97e3a1b55
+SHA1: f0fded178513e0838f77812d7d9f92420d9dabd4
+SHA256: 8bea5785134e9bb403e036a389047591fc4ad6714776f40e0266192682511faa
+Section: Themes
+Description: Imagines dark mode iOS icons
+Tag: cydia::commercial
+Author: Surenix <surenix@surenix.me>
+Depiction: http://www.surenix.me/repo/vantaye/index.html
+Icon: file:///Library/Themes/Vantaye.theme/IconBundles/Vantaye-Icon.png
+Name: Vantaye
+
+Package: netskao.dumpbinaryfiles
+Version: 1.2-1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 268
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./packages/Rootful/Netskao-Tweaks/netskao.dumpbinaryfiles_1.2-1_iphoneos-arm.deb
+Size: 38420
+MD5sum: a47160fad05f54207c3ec469ef1442f4
+SHA1: bb8488e91ec5388fc5eafdb04159cb652c1cfa0e
+SHA256: e670db2fd975e5ce675caa9d7bedf753ac2d23d7b4b9c20a97b2234cbc1a8aab
+Section: Netskao-Tweaks
+Description: Provide list for dynamic decryption of binary files, Easy to apply reverse engineering
+Author: Netskao
+Name: DumpBinaryFiles
+
+Package: netskao.dumpbinaryfiles-rootless
+Version: 1.2-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 268
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./packages/Rootless/Netskao-Tweaks/netskao.dumpbinaryfiles-rootless_1.2-1_iphoneos-arm64.deb
+Size: 40540
+MD5sum: 04246a7f08408f6a0ea0bb575c86ab91
+SHA1: c4c409c0d86a6e1e44859e554042f123937e1149
+SHA256: 1347e0dd96a9b1cf8f6c077e974642c324d85a4188ca6b026ab4361873e8d645
+Section: Netskao-Tweaks
+Description: Provide list for dynamic decryption of binary files, Easy to apply reverse engineering
+Author: Netskao
+Name: DumpBinaryFiles-Rootless
+

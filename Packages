@@ -115,6 +115,23 @@ Author: julioverne
 Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.spotilife
 Name: Spotilife
 
+Package: com.julioverne.spotilife
+Version: 1.8
+Architecture: iphoneos-arm64
+Maintainer: Julio
+Depends: mobilesubstrate
+Filename: ./packages/Rootless/Tweaks/com.julioverne.spotilife_1.8_iphoneos-arm64.deb
+Size: 201956
+MD5sum: 2f52df8d07c92dfd0df1ef98d8f30ac4
+SHA1: e8bed04716134acb314befb7536d0945c2b8ed84
+SHA256: 0be4a0c4bb7c6c9bbb793a3e48db3e47d7a786a23b83da61f0e135af5e2e56b3
+Section: Tweaks
+Homepage: https://twitter.com/ijulioverne
+Description: Spotify Unlimited Skips, Remove ADs, Extreme Quality Stream Unlocked... Requires Spotify App (AppStore)
+Author: julioverne
+Depiction: https://julio.hackyouriphone.org/description.html?id=com.julioverne.spotilife
+Name: Spotilife
+
 Package: com.q8crack.haskfm
 Version: 1.0
 Architecture: iphoneos-arm
@@ -211,12 +228,12 @@ Version: 0.2.0-alpha
 Architecture: iphoneos-arm64
 Maintainer: akusio <akusio-report@neko2.net>
 Installed-Size: 376
-Depends: mobilesubstrate, jp.akusio.backgrounderaction15, preferenceloader, oldabi, com.brend0n.milkyway2-ios14fix
+Depends: mobilesubstrate, jp.akusio.backgrounderaction15, oldabi, com.brend0n.milkyway2-ios14fix
 Filename: ./packages/Rootless/Tweaks/jp.akusio.milkyway2-forios15_0.2.0-alpha_iphoneos-arm64.deb
-Size: 32764
-MD5sum: 12ec720538bf71273e6aede4d324cb00
-SHA1: 2466d180e3d5359748b5511503def07cea1d6ad4
-SHA256: 00dbc5f368eb0a660eb049d5594ae023acb181006c36a42cdfca8542a388478f
+Size: 32652
+MD5sum: 75ce1b093f717ef18011f51330e1d20f
+SHA1: 3045445aa8a4c918219d0e497d527d084a36f5f5
+SHA256: 1caeab06eee458d66a80f280239a8f8c4244f8fa4f0a8448e0f42e9bc23c2f1d
 Section: Tweaks
 Description: multitasking for iOS13.
 Author: akusio <akusio-report@neko2.net>
